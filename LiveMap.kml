@@ -1,0 +1,2555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>LiveMap.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Yerlerim</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>:/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>:/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>QP Camera</name>
+			<Placemark>
+				<name>QP-005</name>
+				<description>Bakı Quba yolu 12 ci km
+Keçid üzərində
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.76376298845891</longitude>
+					<latitude>40.45130400010279</latitude>
+					<altitude>0</altitude>
+					<heading>-7.48789719214784e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999930599014</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.7637629884589,40.45130400010279,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-014</name>
+				<description>Q.Qarayev pr, Praqa restoranın qarşısı Neftçilər mst istiqaməti TŞ4-085
+Yeni Г dirəyi ilə əvəzləndi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93893805093611</longitude>
+					<latitude>40.41587151236418</latitude>
+					<altitude>0</altitude>
+					<heading>3.190487748383838e-05</heading>
+					<tilt>12.14742801101577</tilt>
+					<range>519.8835629481605</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9389380509361,40.41587151236418,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-059</name>
+				<description>Q.Qarayev pr, Dakar dairəsi yaxınlığı Xalqlar Dostluğu mst istiqaməti
+NİİM dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.94267586026953</longitude>
+					<latitude>40.4108532936857</latitude>
+					<altitude>0</altitude>
+					<heading>5.081092615872009e-05</heading>
+					<tilt>14.37938448275798</tilt>
+					<range>453.3567502984478</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94267586026953,40.4108532936857,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-063</name>
+				<description>Q.Qarayev pr, Xalqlar dostluğu m/st yaxınlığı Babək prospekti istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.95279301075649</longitude>
+					<latitude>40.39692601364429</latitude>
+					<altitude>0</altitude>
+					<heading>6.971034792527247e-09</heading>
+					<tilt>0</tilt>
+					<range>999.99983316371</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.95279301075649,40.39692601364429,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-061</name>
+				<description>Q.Qarayev pr, Laçın TM-nin qarşısı Babək prospekti istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.95094499534977</longitude>
+					<latitude>40.39935800336721</latitude>
+					<altitude>0</altitude>
+					<heading>-3.013868171717376e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000047232797</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.95094499534978,40.3993580033672,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-060</name>
+				<description>Q.Qarayev pr,Xalqlar dostluğu m/st yaxınlığı Neftçilər mst istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.95201601924262</longitude>
+					<latitude>40.39839400685079</latitude>
+					<altitude>0</altitude>
+					<heading>1.247109485042443e-08</heading>
+					<tilt>0</tilt>
+					<range>999.999961390462</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.95201601924262,40.39839400685079,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-012</name>
+				<description>Atatürk pr, Aral plazanın qarşısı Z.Bünyadov pr istiqaməti TŞ6-027
+Yeni Г dirəyi ilə əvəzləndi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84840530183638</longitude>
+					<latitude>40.40924420537678</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001112355419214401</heading>
+					<tilt>4.901052444154073</tilt>
+					<range>750.3230905887294</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84840530183638,40.40924420537678,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-053</name>
+				<description>Moskva pr, 20 yanvar dairəsi yaxınlığı Şamaxinka istiqaməti TŞ3-336
+yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.80688101507977</longitude>
+					<latitude>40.40609700844758</latitude>
+					<altitude>0</altitude>
+					<heading>9.774712827565424e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9485642106374</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80688101507976,40.40609700844758,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-066</name>
+				<description>Babək pr, Arzu şadlıq sarayının qarşısı mərkəz istiqaməti TŞ4-010
+Yeni Г dirəyi ilə əvəzləndi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.92577299477839</longitude>
+					<latitude>40.39346899030343</latitude>
+					<altitude>0</altitude>
+					<heading>-3.383782583944991e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999692785958</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9257729947784,40.39346899030343,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-025</name>
+				<description>Z.Bünyadov pr, Aşqarlar kimyası institutunun qarşısı 20 yanvar mst istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.90840679789787</longitude>
+					<latitude>40.42554963024054</latitude>
+					<altitude>0</altitude>
+					<heading>-0.000490379395143335</heading>
+					<tilt>18.46593569721227</tilt>
+					<range>769.6010135396606</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.90840679789787,40.42554963024053,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-028</name>
+				<description>Z.Bünyadov pr, Evrohome TM yaxınlığı 20 yanvar mst istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.87868399532483</longitude>
+					<latitude>40.42540300465892</latitude>
+					<altitude>0</altitude>
+					<heading>-3.031647472386757e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000009725704</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87868399532482,40.42540300465892,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-032</name>
+				<description>Füzuli ilə S.Vurğun küçələrinin kəsişməsi 5 mərtəbə istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84074701119683</longitude>
+					<latitude>40.37806698688453</latitude>
+					<altitude>0</altitude>
+					<heading>7.253623895420599e-09</heading>
+					<tilt>0</tilt>
+					<range>1010.358173342939</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84074701119683,40.37806698688453,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-033</name>
+				<description>Z.Bünyadov pr, DİN-in Hospitalının yaxınlığı 20 yanvar mst istiqaməti 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85340159588731</longitude>
+					<latitude>40.41478865646643</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001010428659021123</heading>
+					<tilt>13.65334314632969</tilt>
+					<range>471.6284777028647</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85340159588731,40.41478865646642,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-034</name>
+				<description>Z.Bünyadov pr, Dərnəgül Sənaye Tikinti ASC-in qarşısı Koroğlu mst istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85340159588731</longitude>
+					<latitude>40.41478865646643</latitude>
+					<altitude>0</altitude>
+					<heading>0.0001010428659021123</heading>
+					<tilt>13.65334314632969</tilt>
+					<range>471.6284777028647</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85340159588731,40.41478865646642,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-049</name>
+				<description>Bakı Sumqayıt yolu 8,7-ci km Bakı istiqaməti
+yeni Г dirəyi ilə əvəzləndi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.78309499824584</longitude>
+					<latitude>40.43353299415234</latitude>
+					<altitude>0</altitude>
+					<heading>-1.137690770668863e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000057517577</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.78309499824585,40.43353299415234,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-054</name>
+				<description>A.Mustafayev ilə H.Seyidzadə küçələrinin kəsişməsi 3-cü mkr dairəsi istiqaməti TŞ3-028
+Restavrasiya olunmuş Г dirəyi ilə əvəzləndi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.82365001000208</longitude>
+					<latitude>40.40828301290259</latitude>
+					<altitude>0</altitude>
+					<heading>6.483646593139778e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000058680824</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.82365001000208,40.40828301290259,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-055</name>
+				<description>8 noyabr pr, 2 saylı  Asan Xidmətin qarşısı Ağ şəhər istiqaməti TŞ5-065
+Restavrasiya olunmuş Г dirəyi ilə əvəzləndi
+ TŞ5-065 yeri uyğun olmadığına görə yerdəyişmə olmalıdır</description>
+				<LookAt>
+					<longitude>49.87891098461019</longitude>
+					<latitude>40.37882102497662</latitude>
+					<altitude>0</altitude>
+					<heading>-9.970110204421138e-09</heading>
+					<tilt>0</tilt>
+					<range>1021.998985629982</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87891098461019,40.37882102497662,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-021</name>
+				<description>Mikayıl Hüseynov küçəsi, Dəniz Mall-ın yaxınlığı Azneft dairəsi istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.83436599303707</longitude>
+					<latitude>40.35648698902283</latitude>
+					<altitude>0</altitude>
+					<heading>-4.508814746981629e-09</heading>
+					<tilt>0</tilt>
+					<range>1020.375840467832</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83436599303707,40.35648698902283,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-056</name>
+				<description>Mikayıl Hüseynov pr 3, Dünya Göz Klinikasının qarşısı Azneft dairəsi istiqaməti 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.83626000632714</longitude>
+					<latitude>40.34971500136871</latitude>
+					<altitude>0</altitude>
+					<heading>4.096493999186061e-09</heading>
+					<tilt>0</tilt>
+					<range>1022.588328295106</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83626000632714,40.34971500136871,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-057</name>
+				<description>Mikayıl Hüseynov pr 1, İnturist Hotelin qarşısı Azneft dairəsi istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.83435000099023</longitude>
+					<latitude>40.35360899949818</latitude>
+					<altitude>0</altitude>
+					<heading>6.411711987909118e-10</heading>
+					<tilt>0</tilt>
+					<range>1020.774369523635</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83435000099023,40.35360899949818,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-064</name>
+				<description>Biləcəri dairəsi, Bakı Beynəlxalq Avtovağzalı istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.79973899949602</longitude>
+					<latitude>40.42124799764988</latitude>
+					<altitude>0</altitude>
+					<heading>-3.267829101922875e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000006642394</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.79973899949602,40.42124799764988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-020</name>
+				<description>R.Behbudov ilə N.Vəzirov küçələrinin kəsişməsi Bakıxanov küçəsi istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.8398119964878</longitude>
+					<latitude>40.38859500094105</latitude>
+					<altitude>0</altitude>
+					<heading>-2.27578229122759e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000040859605</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.8398119964878,40.38859500094105,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-006</name>
+				<description>Bakı-Quba Rusiya yolu 7,4-cü km Bakı istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.79739999993306</longitude>
+					<latitude>40.42091700289357</latitude>
+					<altitude>0</altitude>
+					<heading>-4.341775195665846e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.00003725702</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.79739999993307,40.42091700289357,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-007</name>
+				<description>Bakı-Quba-Rusiya yolu 8-ci km Bakı istiqaməti
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.79328299088684</longitude>
+					<latitude>40.42564198781608</latitude>
+					<altitude>0</altitude>
+					<heading>-5.909537389807525e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000029308666</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.79328299088683,40.42564198781608,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-015</name>
+				<description>Q.Qarayev pr, Laçın TM-nin qarşısı Neftçilər mst istiqaməti
+yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.93889700554603</longitude>
+					<latitude>40.41585501023527</latitude>
+					<altitude>0</altitude>
+					<heading>3.595658414605365e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00004338816</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93889700554604,40.41585501023527,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-030</name>
+				<description>Q.Qarayev pr, Neftçilər mst yaxınlığı 8-ci km bazarı istiqaməti TŞ4-060
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.94413274174583</longitude>
+					<latitude>40.4090262735083</latitude>
+					<altitude>0</altitude>
+					<heading>1.11172376808299e-08</heading>
+					<tilt>0</tilt>
+					<range>1003.535444795886</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94413274174583,40.4090262735083,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-044</name>
+				<description>Q.Qarayev pr, 8-ci km bazarın yaxınlığı Xalqlar mst istiqaməti TŞ4-002
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.94763099449516</longitude>
+					<latitude>40.40403299534621</latitude>
+					<altitude>0</altitude>
+					<heading>-3.568076644407712e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000033401821</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94763099449517,40.40403299534621,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-047</name>
+				<description>Q.Qarayev pr ilə Nəsimi küçəsinin kəsişməsi Q.Qarayev mst istiqaməti TŞ4-016
+Yeni Г dirəyi Bizbizə restoranı yaxınlığında</description>
+				<LookAt>
+					<longitude>49.94066597350895</longitude>
+					<latitude>40.41384801147278</latitude>
+					<altitude>0</altitude>
+					<heading>-1.717426693288093e-08</heading>
+					<tilt>0</tilt>
+					<range>1000.000229014699</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94066597350895,40.41384801147278,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-067</name>
+				<description>Q.Qarayev pr, Dakar dairəsi yaxınlığı Qara Qarayev mst istiqaməti
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.94402712651968</longitude>
+					<latitude>40.40941017779657</latitude>
+					<altitude>0</altitude>
+					<heading>1.469839912719716e-08</heading>
+					<tilt>0</tilt>
+					<range>1001.22141415057</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94402712651969,40.40941017779658,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-069</name>
+				<description>Q.Qarayev pr, 8-ci km bazarının yaxınlığı Neftçilər mst istiqaməti
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.94607582431836</longitude>
+					<latitude>40.40668868739913</latitude>
+					<altitude>0</altitude>
+					<heading>2.271424931313985e-09</heading>
+					<tilt>0</tilt>
+					<range>1009.391152287607</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94607582431837,40.40668868739913,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-016</name>
+				<description>R.Behbudov ilə 28 may küçələrinin kəsişməsi TŞ3-009
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.8459299063945</longitude>
+					<latitude>40.37597666939853</latitude>
+					<altitude>0</altitude>
+					<heading>-5.33970762279918e-08</heading>
+					<tilt>0</tilt>
+					<range>1138.423200636845</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.8459299063945,40.37597666939853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-022</name>
+				<description>Y.Səfərov ilə M.Mehdizadə küçələrinin kəsişməsi Perinatal Mərkəzin qarşısı
+Yeni Г dirəyi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.86479001082655</longitude>
+					<latitude>40.38052700571159</latitude>
+					<altitude>0</altitude>
+					<heading>7.014102683468946e-09</heading>
+					<tilt>0</tilt>
+					<range>1022.262521716918</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.86479001082656,40.38052700571159,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-031</name>
+				<description>Y.Səfərov ilə S.Orucov küçələrinin kəsişməsi Fransız parkının qarşısı TŞ5-211
+TŞ5-211 üzərinə qol əlavə olunub Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.86517379405457</longitude>
+					<latitude>40.37909941248491</latitude>
+					<altitude>0</altitude>
+					<heading>-2.741978454772469e-09</heading>
+					<tilt>0</tilt>
+					<range>1036.029358764536</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.86517379405456,40.3790994124849,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-035</name>
+				<description>Moskva pr ilə Cəfər Cəfərov küçəsinin kəsişməsi Şamaxinka istiqaməti TŞ3-062
+Yeni Г dirəyi ilə əvəzləndi
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.80784961426777</longitude>
+					<latitude>40.40478682832217</latitude>
+					<altitude>0</altitude>
+					<heading>2.126464790596923e-09</heading>
+					<tilt>0</tilt>
+					<range>1007.428090231091</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80784961426777,40.40478682832217,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-052</name>
+				<description>Moskva pr, Avtobus dayanacağı Şamaxinka istiqaməti TŞ3-072
+yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.80737784001575</longitude>
+					<latitude>40.40554681433713</latitude>
+					<altitude>0</altitude>
+					<heading>-1.584711688094665e-08</heading>
+					<tilt>0</tilt>
+					<range>1030.896566259795</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80737784001574,40.40554681433712,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-011</name>
+				<description>Moskva pr, Badi Səba restoranın qarşısı 20 Yanvar dairəsi istiqaməti TŞ2-134
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.80653235956984</longitude>
+					<latitude>40.40543497731534</latitude>
+					<altitude>0</altitude>
+					<heading>8.786063641228093e-06</heading>
+					<tilt>0</tilt>
+					<range>1000.62623398689</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80653235956985,40.40543497731534,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-013</name>
+				<description>Moskva pr, Şamaxinka yerüstü keçidin yaxınlığı Bakı-Quba yolu istiqaməti TŞ3-071
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.80334350337875</longitude>
+					<latitude>40.41174534286905</latitude>
+					<altitude>0</altitude>
+					<heading>-5.462208276633087e-09</heading>
+					<tilt>0</tilt>
+					<range>1008.154708398225</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80334350337876,40.41174534286905,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-027</name>
+				<description>Moskva pr, Şamaxinka yerüstü keçidin yaxınlığı 20 yanvar dairəsi istiqaməti
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.80339608189306</longitude>
+					<latitude>40.4108927245401</latitude>
+					<altitude>0</altitude>
+					<heading>3.159219520660259e-09</heading>
+					<tilt>0</tilt>
+					<range>1006.385401978906</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80339608189306,40.41089272454011,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-023</name>
+				<description>Zivərbəy Əhmədbəyov ilə Sübhi Salayev küçələrinin kəsişməsi
+Yeni Г dirəyi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.83034800319086</longitude>
+					<latitude>40.38260900237353</latitude>
+					<altitude>0</altitude>
+					<heading>2.067322376295108e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999776152381</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83034800319085,40.38260900237353,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-019</name>
+				<description>Z.Bünyadov pr ilə İ.Dadaşov küçəsinin kəsişməsi Atatürk pr isitiqaməti TŞ6-224 
+mövcud TŞ dirəyinə qol quraşdırılıb
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.84307039370426</longitude>
+					<latitude>40.41213827114152</latitude>
+					<altitude>0</altitude>
+					<heading>1.019666747549115e-09</heading>
+					<tilt>0</tilt>
+					<range>1006.386554967096</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84307039370426,40.41213827114152,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-018</name>
+				<description>Z.Bünyadov pr, Azərsilahın yaxınlığı 20 yanvar mst istiqaməti TŞ8-246
+mövcud TŞ dirəyinə qol quraşdırılıb
+mövcud PTZ kamera sökülüb 3-252 üzərinə əlavə olnacaq</description>
+				<LookAt>
+					<longitude>49.84234715809298</longitude>
+					<latitude>40.41227612883633</latitude>
+					<altitude>0</altitude>
+					<heading>-3.198524815413785e-10</heading>
+					<tilt>0</tilt>
+					<range>1011.059958142405</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84234715809298,40.41227612883633,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-037</name>
+				<description>Z.Bünyadov pr, &quot;Hyundai&quot; servisin yaxınlığı Koroğlu mst istiqaməti TŞ6-064
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.89726399755236</longitude>
+					<latitude>40.42815298717255</latitude>
+					<altitude>0</altitude>
+					<heading>-1.58728125822182e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999791143592</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.89726399755236,40.42815298717255,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-046</name>
+				<description>Z.Bünyadov ilə Atatürk prospektinin kəsişməsi 20 yanvar mst istiqaməti TŞ8-024
+yeni Г dirəyi ilə əvəzləndi
+Qırıq xətlənmə 30 m dən  çox məsafə olduğuna görə mövcud PTZ kameranın smart kamera ilə əvəz olunması uyğun gəlmir</description>
+				<LookAt>
+					<longitude>49.84582770835968</longitude>
+					<latitude>40.41324867681823</latitude>
+					<altitude>0</altitude>
+					<heading>-5.164400219588932e-09</heading>
+					<tilt>0</tilt>
+					<range>1037.652189840538</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84582770835968,40.41324867681823,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP- X</name>
+				<description>Z.Bünyadov pr ilə Dərnəgül 1 küçəsinin kəsişməsi 20 yanvar mst istiqaməti 
+Qırıq xətlənmə 30 m dən  çox məsafə olduğuna görə mövcud PTZ kameranın smart kamera ilə əvəz olunması uyğun gəlmir</description>
+				<LookAt>
+					<longitude>49.87637200367317</longitude>
+					<latitude>40.42425299312897</latitude>
+					<altitude>0</altitude>
+					<heading>2.381841067635671e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000036253643</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87637200367318,40.42425299312897,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-062</name>
+				<description>Z.Bünyadov pr ilə A.Gəraybəyli küçəsinin kəsişməsi 20 yanvar mst istiqaməti
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.84982900974788</longitude>
+					<latitude>40.41405199841025</latitude>
+					<altitude>0</altitude>
+					<heading>6.319622207662023e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000026043357</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84982900974788,40.41405199841026,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-051</name>
+				<description>Z.Bünyadov pr ilə Ə.Rəcəbli küçəsinin kəsişməsi Koroğlu mst istiqaməti TŞ6-010
+Mövcud PTZ kameranın yeri uyğun gəlmədiyinə görə smart kamera yaxınlıqda olan TŞ6-294 nöqtəsi üzərinə quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.85846363956521</longitude>
+					<latitude>40.41563664196408</latitude>
+					<altitude>0</altitude>
+					<heading>4.387479766438477e-10</heading>
+					<tilt>0</tilt>
+					<range>1016.93969760243</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85846363956521,40.41563664196408,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-017</name>
+				<description>Z.Bünyadov pr, Baku Steel Company qarşısı 20 Yanvar mst isitqaməti
+Yeni Г dirəyi
+Zolaq ləğv olunub kameranın yeri uyğun deyil</description>
+				<LookAt>
+					<longitude>49.88844655719316</longitude>
+					<latitude>40.4279275300388</latitude>
+					<altitude>0</altitude>
+					<heading>7.089885759864175e-09</heading>
+					<tilt>0</tilt>
+					<range>1010.856675054621</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.88844655719315,40.4279275300388,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-065</name>
+				<description>Alı Mustafayev küçəsi, Bazarının qarşısı 3-cü mkr dairəsi istiqaməti TŞ3-032
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.81958876601514</longitude>
+					<latitude>40.40740903192286</latitude>
+					<altitude>0</altitude>
+					<heading>-3.59482701761163e-08</heading>
+					<tilt>0</tilt>
+					<range>1072.815987555812</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.81958876601514,40.40740903192286,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-045</name>
+				<description>Atatürk pr ilə M.Araz küçələrinin kəsişməsi Ziya Bünyadov pr istiqaməti
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.84879031627827</longitude>
+					<latitude>40.40753246382826</latitude>
+					<altitude>0</altitude>
+					<heading>-4.850345889231861e-12</heading>
+					<tilt>0</tilt>
+					<range>1044.589856663348</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84879031627827,40.40753246382827,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-043</name>
+				<description>R.Behbudov küçəsi Bakıxanov küçəsi istiqaməti TŞ3-121
+Yeni Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.84073900820333</longitude>
+					<latitude>40.38607200954093</latitude>
+					<altitude>0</altitude>
+					<heading>5.315209400365206e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999831602054</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84073900820333,40.38607200954094,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-010</name>
+				<description>Bakı-Quba yolu 9-cu km Quba istiqaməti
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.77882798522421</longitude>
+					<latitude>40.43713199683761</latitude>
+					<altitude>0</altitude>
+					<heading>-9.583749143935671e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000137601907</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.77882798522421,40.43713199683761,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-026</name>
+				<description>R.Cəfərov küçəsi, 20 Yanvar dairəsi 3-cü mkr dairəsi isitiqaməti TŞ3-253
+PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.80863396528866</longitude>
+					<latitude>40.40395978174541</latitude>
+					<altitude>0</altitude>
+					<heading>8.963445564409841e-09</heading>
+					<tilt>0</tilt>
+					<range>1040.070854842787</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80863396528867,40.40395978174541,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-058</name>
+				<description>R.Cəfərov küçəsi, DOST mərkəzinin yaxınlığı 3-cü mkr dairəsi istiqaməti
+Mövcud PTZ kameranın yeri uyğun gəlmədiyinə görə yaxınlıqda olan 3-332 TŞ üzərinə qol əlavə olunub smart kamera quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.81188290515684</longitude>
+					<latitude>40.40507183310853</latitude>
+					<altitude>0</altitude>
+					<heading>-6.784196288319354e-09</heading>
+					<tilt>0</tilt>
+					<range>1005.039858637694</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.81188290515685,40.40507183310853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-036</name>
+				<description>Alı Mustafayev küçəsi 3-cü mkr dairəsi istiqaməti TŞ3-060
+TŞ3-060 yeni Г dirəyi ilə və Mövcud PTZ smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.82230400769267</longitude>
+					<latitude>40.40793100017566</latitude>
+					<altitude>0</altitude>
+					<heading>4.986569046238945e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00000918886</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.82230400769267,40.40793100017565,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-041</name>
+				<description>Gəncə pr, 89-99, Əhmədli mst istiqaməti
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.9616610046814</longitude>
+					<latitude>40.35622099064559</latitude>
+					<altitude>0</altitude>
+					<heading>3.031415291895011e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000004324201</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.96166100468141,40.35622099064559,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-038</name>
+				<description>Gəncə pr, Fəridə Şadlıq sarayının qarşısı Zığ şossesi istiqaməti TŞ5-026
+mövcud PTZ kameranın smart kamera ilə əvəz olunması uyğun gəlmir</description>
+				<LookAt>
+					<longitude>49.95983544953904</longitude>
+					<latitude>40.37064143871721</latitude>
+					<altitude>0</altitude>
+					<heading>-5.332009090192697e-10</heading>
+					<tilt>0</tilt>
+					<range>1003.235994616196</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.95983544953904,40.37064143871721,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-042</name>
+				<description>Vunq Tau küçəsi 15, Gəncə pr istiqaməti
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.95828400618266</longitude>
+					<latitude>40.37443578738988</latitude>
+					<altitude>0</altitude>
+					<heading>1.355338353909688e-08</heading>
+					<tilt>0</tilt>
+					<range>1003.849796888128</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.95828400618266,40.37443578738988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-068</name>
+				<description>Bakı Beynəlxalq Avtovağzalın qarşısı TŞ8-081
+Restavrasiya olunmuş Г dirəyi ilə əvəzləndi
+Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
+				<LookAt>
+					<longitude>49.79656240501839</longitude>
+					<latitude>40.41973061108294</latitude>
+					<altitude>0</altitude>
+					<heading>8.101960523388635e-09</heading>
+					<tilt>0</tilt>
+					<range>1024.341796855967</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.7965624050184,40.41973061108294,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-039</name>
+				<description>Rəşid Behbudov pr ilə Üzeyir Hacıbəyov küçəsinin kəsişməsi TŞ1-004
+Mövcud PTZ kameranın yeri smart kamera ilə əvəz etmək uyğun deyil</description>
+				<LookAt>
+					<longitude>49.84721855002172</longitude>
+					<latitude>40.37341079426068</latitude>
+					<altitude>0</altitude>
+					<heading>6.384593942584023e-08</heading>
+					<tilt>0</tilt>
+					<range>1104.449942494654</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84721855002172,40.37341079426068,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-040</name>
+				<description>Zivərbəy Əhmədbəyov ilə Salatın Əsgərova küçələrinin kəsişməsi TŞ2-103
+Mövcud PTZ kameranın yeri smart kamera ilə əvəz etmək uyğun deyil</description>
+				<LookAt>
+					<longitude>49.83173611640119</longitude>
+					<latitude>40.37894804603405</latitude>
+					<altitude>0</altitude>
+					<heading>2.691891079648781e-09</heading>
+					<tilt>0</tilt>
+					<range>1016.931041328365</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83173611640119,40.37894804603405,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-048</name>
+				<description>Bülbül pr ilə Ş.Bədəlbəyli küçəsinin kəsişməsi 28 may mst istiqaməti TŞ3-045
+TŞ3-045 yeri dəyişdirib yeni Q dirəyi üzərinə quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.84252081399612</longitude>
+					<latitude>40.37745639565996</latitude>
+					<altitude>0</altitude>
+					<heading>-4.213840564158658e-09</heading>
+					<tilt>0</tilt>
+					<range>1024.050252629444</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84252081399612,40.37745639565996,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-050</name>
+				<description>S.Vurğun ilə Ş.Bədəlbəyli küçələrinin kəsişməsi 28 may mst istiqaməti TŞ3-169
+Yeni Г dirəyi 
+Mövcud PTZ kameranın yeri smart kameraya uyğun gəlmədiyinə görə yaxınlıqda Yeni Q dirəyi üzərinə quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.84077599154337</longitude>
+					<latitude>40.37710500418626</latitude>
+					<altitude>0</altitude>
+					<heading>-5.478292341657247e-09</heading>
+					<tilt>0</tilt>
+					<range>1012.682287126341</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84077599154337,40.37710500418626,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Səbail rayonu, Üzeyir Hacıbəyov və Rixard Zorge küçələrinin kəsişməsi 
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85672639280519</longitude>
+					<latitude>40.37604264475753</latitude>
+					<altitude>0</altitude>
+					<heading>2.540153176905518e-09</heading>
+					<tilt>0</tilt>
+					<range>1029.903933836079</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85672639280519,40.37604264475753,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Səbail rayonu, Zərifə Əliyeva və S.Vurğun küçələrinin kəsişməsi
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84350155012903</longitude>
+					<latitude>40.37059192377081</latitude>
+					<altitude>0</altitude>
+					<heading>-1.052970335618719e-09</heading>
+					<tilt>0</tilt>
+					<range>1029.4252916641</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84350155012902,40.37059192377081,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Səbail rayonu, Zərifə Əliyeva küçəsi, Dinamo Hotelin qarşısı 
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84839501699084</longitude>
+					<latitude>40.37233800112412</latitude>
+					<altitude>0</altitude>
+					<heading>1.100586737810378e-08</heading>
+					<tilt>0</tilt>
+					<range>1023.377166757434</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84839501699084,40.37233800112412,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, Cəfər Cabbarlı küçəsi, Caspian Plazanın yaxınlığı
+QİS dirəyi üzərinə
+Ağac mane olduğuna görə yaxınlıqda yeni Q dirəyi quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.82883600678805</longitude>
+					<latitude>40.38403199717749</latitude>
+					<altitude>0</altitude>
+					<heading>4.398020124652847e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000027868564</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.82883600678805,40.38403199717748,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu - Tblisi pr, Aztelekomun yaxınlığı Ə.Salamzadə istiqaməti (TŞ3-338)
+TŞ3-338
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.80817799492132</longitude>
+					<latitude>40.40296201416542</latitude>
+					<altitude>0</altitude>
+					<heading>-3.291826386994518e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999445997837</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80817799492132,40.40296201416542,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, A.M.Şərifzadə küçəsi, Poçtun yaxınlığı, Akim Abbasov küçəsi ilə kəsişmə istiqaməti 
+QİS dirəyi üzərinə
+Ağac mane olduğuna görə yaxınlıqda yeni Q dirəyi quraşdırılacaq</description>
+				<LookAt>
+					<longitude>49.80370900677244</longitude>
+					<latitude>40.38489300061921</latitude>
+					<altitude>0</altitude>
+					<heading>4.387979113523467e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000046685826</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80370900677244,40.38489300061921,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, A.M.Şərifzadə küçəsi - İnşaatçılar mst-in qarşısı, 20 yanvar mst istiqaməti
+NİİM dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.8030319892025</longitude>
+					<latitude>40.38935000566153</latitude>
+					<altitude>0</altitude>
+					<heading>-6.996561924400673e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000069072303</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80303198920249,40.38935000566153,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, A.M.Şərifzadə küçəsi - Günəş petrolun yaxınlığı, 20 Yanvar mst istiqaməti
+Mövcud TŞ2-116 Yeni Г dirəyi ilə əvəz olunacaq 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.80246800044394</longitude>
+					<latitude>40.39292200786872</latitude>
+					<altitude>0</altitude>
+					<heading>2.877097959305082e-10</heading>
+					<tilt>0</tilt>
+					<range>999.9999942640495</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80246800044394,40.39292200786872,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, Tbilisi pr. - Bravo Hipermarketin qarşısı, 20 Yanvar dairəsi istiqaməti
+Yeni TŞ nöqtəsi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.80992524234451</longitude>
+					<latitude>40.401520973032</latitude>
+					<altitude>0</altitude>
+					<heading>-3.031485264098003e-09</heading>
+					<tilt>0</tilt>
+					<range>1002.896507712231</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.80992524234451,40.401520973032,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, Tbilisi pr. - Azər Əliyev küçəsi ilə kəsişmə, 20 yanvar istiqaməti
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.82060699735374</longitude>
+					<latitude>40.39364299641819</latitude>
+					<altitude>0</altitude>
+					<heading>-1.714885112042136e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000041659846</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.82060699735374,40.3936429964182,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Yasamal rayonu, Tbilisi pr - Grand Hayatın qarşısı, Şəhər istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.81608073682244</longitude>
+					<latitude>40.39588424608434</latitude>
+					<altitude>0</altitude>
+					<heading>5.683275910322892e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.763571715587</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.81608073682244,40.39588424608434,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, 28 May küçəsi - S.Vurğun Bağının yaxınlığı 
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85293301766742</longitude>
+					<latitude>40.37822700967757</latitude>
+					<altitude>0</altitude>
+					<heading>1.14454772850663e-08</heading>
+					<tilt>0</tilt>
+					<range>1021.572753977083</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85293301766742,40.37822700967757,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, Azadlıq pr - Azadlıq Residence qarşısı 
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84039900612819</longitude>
+					<latitude>40.3943599950786</latitude>
+					<altitude>0</altitude>
+					<heading>3.971323269697066e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000023339982</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84039900612819,40.3943599950786,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, Azadlıq pr. - Dostluq Kinoteatrının yaxınlığı Mərkəz istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.84262800440149</longitude>
+					<latitude>40.38940700898899</latitude>
+					<altitude>0</altitude>
+					<heading>2.852060632852603e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000033362401</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.84262800440149,40.38940700898899,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, Üzeyir Hacıbəyov küçəsi - Kövkəb Səfərəliyeva küçəsi istiqaməti
+N-159 üzərində qol əlavə edilməlidir
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.86139701604449</longitude>
+					<latitude>40.37720299456497</latitude>
+					<altitude>0</altitude>
+					<heading>1.039388731017933e-08</heading>
+					<tilt>0</tilt>
+					<range>1021.071755717768</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.86139701604449,40.37720299456497,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, Tbilisi pr - H. Əliyev adına İdman Kompleksinin qarşısı 20 yanvar istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.8239261052147</longitude>
+					<latitude>40.391061272478</latitude>
+					<altitude>0</altitude>
+					<heading>9.256724511587597e-09</heading>
+					<tilt>0</tilt>
+					<range>1028.202604494515</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.82392610521471,40.391061272478,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nəsimi rayonu, 28 may küçəsi - Dəmiryol QSC-in yaxınlığı
+Mövcud TŞ3-053 Yeni Г dirəyi ilə əvəz olunub yeri dəyişdiriləcək 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85518599579994</longitude>
+					<latitude>40.37883099711837</latitude>
+					<altitude>0</altitude>
+					<heading>-2.720977252210764e-09</heading>
+					<tilt>0</tilt>
+					<range>1021.897520424264</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85518599579994,40.37883099711837,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nizami rayonu, Q.Qarayev pr - 8-ci km bazarının qarşısı Xalqlar mst istiqaməti
+NİİM dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.94878600215507</longitude>
+					<latitude>40.40253099965172</latitude>
+					<altitude>0</altitude>
+					<heading>1.396794657794288e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000022611856</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94878600215508,40.40253099965172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, Afiyyəddin Cəlilov və F.Bayramov küçələrinin kəsişməsi
+TŞ5-123 üzərinə qol əlavə edilməlidir
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.86828300968121</longitude>
+					<latitude>40.37816798970659</latitude>
+					<altitude>0</altitude>
+					<heading>6.271761220815361e-09</heading>
+					<tilt>0</tilt>
+					<range>1023.204442764826</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.86828300968121,40.37816798970659,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Zəfər parkının qarşısı Zığ istiqaməti 
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.87248840348088</longitude>
+					<latitude>40.37737749044451</latitude>
+					<altitude>0</altitude>
+					<heading>-7.095009633456013e-09</heading>
+					<tilt>0</tilt>
+					<range>1024.260895645178</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87248840348088,40.37737749044452,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Azure Business Mərkəzinin qarşısı, Zığ istiqaməti
+NİİM dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.87636300627737</longitude>
+					<latitude>40.37840799454801</latitude>
+					<altitude>0</altitude>
+					<heading>4.066692201820749e-09</heading>
+					<tilt>0</tilt>
+					<range>1022.256583357831</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87636300627738,40.37840799454801,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - ASAN Xidmətin qarşısı Afiyəddin Cəlilov küçəsi istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.87801300608423</longitude>
+					<latitude>40.37896300471053</latitude>
+					<altitude>0</altitude>
+					<heading>3.941594625089426e-09</heading>
+					<tilt>0</tilt>
+					<range>1022.048156731658</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.87801300608423,40.37896300471053,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Ağ Şəhər - yeni piyada keçidinin yaxınlığı, Mərkəz istiqaməti
+NTS üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.88591401016352</longitude>
+					<latitude>40.37929099915056</latitude>
+					<altitude>0</altitude>
+					<heading>6.584387482120454e-09</heading>
+					<tilt>0</tilt>
+					<range>1019.170090675251</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.88591401016351,40.37929099915057,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Ağ Şəhər - yeni piyada keçidinin yaxınlığı, Zığ istiqaməti
+NTS üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.88584799741344</longitude>
+					<latitude>40.37900099587571</latitude>
+					<altitude>0</altitude>
+					<heading>-1.675684775593098e-09</heading>
+					<tilt>0</tilt>
+					<range>1019.474561337937</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.88584799741345,40.37900099587571,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Nizami parkının yaxınlığı, Mərkəz istiqamət
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.89599099561966</longitude>
+					<latitude>40.37798500058668</latitude>
+					<altitude>0</altitude>
+					<heading>-2.83773541456729e-09</heading>
+					<tilt>0</tilt>
+					<range>1018.928854629653</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.89599099561966,40.37798500058668,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Nizami parkının yaxınlığı, Zığ istiqaməti 
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.89646900057647</longitude>
+					<latitude>40.37764099826531</latitude>
+					<altitude>0</altitude>
+					<heading>3.73467091806809e-10</heading>
+					<tilt>0</tilt>
+					<range>1019.143422975586</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.89646900057647,40.37764099826532,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Çevik Polis Alayının yaxınlığı, Mərkəz istiqaməti 
+Piyada keçidi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.90722200213752</longitude>
+					<latitude>40.37686600066615</latitude>
+					<altitude>0</altitude>
+					<heading>1.384711730559408e-09</heading>
+					<tilt>0</tilt>
+					<range>1020.217189564661</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.90722200213752,40.37686600066615,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - S.Əhmədov küçəsi ilə kəsişmə, Mərkəz istiqaməti
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.91454900157988</longitude>
+					<latitude>40.37646000099832</latitude>
+					<altitude>0</altitude>
+					<heading>1.023429343737286e-09</heading>
+					<tilt>0</tilt>
+					<range>1018.428991040853</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.91454900157988,40.37646000099832,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - S.Əhmədov küçəsi ilə kəsişmə, Zığ istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.91332200853878</longitude>
+					<latitude>40.37630799584819</latitude>
+					<altitude>0</altitude>
+					<heading>5.531461674267273e-09</heading>
+					<tilt>0</tilt>
+					<range>1019.050859300117</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.91332200853878,40.37630799584819,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - 59 saylı məktəbin qarşısı, mərkəz istiqaməti
+TŞ5-124 yeri dəyişdirilib üzərinə qol əlavə olunacaq
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.92475600205341</longitude>
+					<latitude>40.37495600019306</latitude>
+					<altitude>0</altitude>
+					<heading>1.330162037217627e-09</heading>
+					<tilt>0</tilt>
+					<range>1014.648118105158</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9247560020534,40.37495600019306,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - 59 saylı məktəbin qarşısı Zığ istiqaməti
+Piyada keçidi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.9249890030942</longitude>
+					<latitude>40.37436299695261</latitude>
+					<altitude>0</altitude>
+					<heading>2.004372838039582e-09</heading>
+					<tilt>0</tilt>
+					<range>1014.485367870313</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9249890030942,40.37436299695262,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Blue Mall yaxınlığı, Mərkəz istiqaməti
+NTS üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93510700758658</longitude>
+					<latitude>40.36943999488471</latitude>
+					<altitude>0</altitude>
+					<heading>4.91388701065814e-09</heading>
+					<tilt>0</tilt>
+					<range>1014.612164783831</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93510700758659,40.36943999488471,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Blue Mall yaxınlığı, Zığ istiqaməti
+NTS üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.9348870017659</longitude>
+					<latitude>40.36916899860476</latitude>
+					<altitude>0</altitude>
+					<heading>1.143749727337051e-09</heading>
+					<tilt>0</tilt>
+					<range>1014.88694948612</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93488700176591,40.36916899860476,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nərimanov rayonu, Azadlıq pr - Y.V.Çəmənzəminli küçəsi ilə kəsişmə, Z.Bünyadov istiqamət
+QİS dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.8374879904323</longitude>
+					<latitude>40.40257600888884</latitude>
+					<altitude>0</altitude>
+					<heading>-6.201353281831801e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00002448246</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83748799043229,40.40257600888884,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nərimanov rayonu, Azadlıq pr - Maqsud Əlizadə küçəsi ilə kəsişmə, Mərkəz istiqaməti 
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.83745300843722</longitude>
+					<latitude>40.40187399298745</latitude>
+					<altitude>0</altitude>
+					<heading>5.468521677675793e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000005355891</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83745300843722,40.40187399298745,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nərimanov rayonu, Azadlıq pr - 47 saylı məktəbin yaxınlığı, Z.Bünyadov istiqaməti 
+TŞ6-014 üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.83845200199649</longitude>
+					<latitude>40.40004799870723</latitude>
+					<altitude>0</altitude>
+					<heading>1.293970505497254e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000015681959</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.83845200199649,40.40004799870723,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nərimanov rayonu, F.X.Xoyski küçəsi - Gənclik Mall-ın qarşısı, Atatürk prospekti istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85313701064165</longitude>
+					<latitude>40.40087300297652</latitude>
+					<altitude>0</altitude>
+					<heading>6.897188673933028e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999814347655</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85313701064165,40.40087300297652,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Nərimanov rayonu, F.X.Xoyski küçəsi - Gənclik Mall-ın qarşısı, Koroğlu Rəhimov küçəsi istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.85227399805706</longitude>
+					<latitude>40.40042599799792</latitude>
+					<altitude>0</altitude>
+					<heading>-1.259292917805257e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000004338676</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.85227399805706,40.40042599799792,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - Yerüstü piyada keçidinin yaxınlığı, Zabrat istiqaməti
+NİİM dirəyi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.9338819981487</longitude>
+					<latitude>40.44196100059244</latitude>
+					<altitude>0</altitude>
+					<heading>-1.20090429496295e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00001573816</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9338819981487,40.44196100059245,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - Yerüstü piyada keçidinin yaxınlığı, H.Əliyev prospekti istiqaməti
+Mövcud TŞ9-018 Yeni Г dirəyi ilə əvəz olunub yeri dəyişdiriləcək 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93346000676722</longitude>
+					<latitude>40.44087099989673</latitude>
+					<altitude>0</altitude>
+					<heading>4.389645724176552e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000004244627</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93346000676722,40.44087099989673,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - Bolmartın yaxınlığı Zabrat istiqaməti
+TŞ9-200 üzərinə qol əlavə edilməlidir
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93436800199456</longitude>
+					<latitude>40.4451140019476</latitude>
+					<altitude>0</altitude>
+					<heading>1.293887811075536e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000025095825</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93436800199456,40.4451140019476,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - SOCAR Ekologiya İdarəsinin qarşısı, Zabrat istiqaməti
+Yeni Г dirəyi 
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93534099609379</longitude>
+					<latitude>40.44865299669394</latitude>
+					<altitude>0</altitude>
+					<heading>-2.534221442424589e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000022178113</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93534099609378,40.44865299669394,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - SOCAR Ekologiya İdarəsinin qarşısı, H.Əliyev prospekti istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93516758704012</longitude>
+					<latitude>40.44873628042368</latitude>
+					<altitude>0</altitude>
+					<heading>7.65241456360122e-11</heading>
+					<tilt>0</tilt>
+					<range>1000.432339187895</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93516758704012,40.44873628042368,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - RED (MS) Oil qarşısı, Zabrat istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.93630399510939</longitude>
+					<latitude>40.4526959945529</latitude>
+					<altitude>0</altitude>
+					<heading>-3.173134447391662e-09</heading>
+					<tilt>0</tilt>
+					<range>999.9999945738836</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.93630399510939,40.45269599455289,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - RED (MS) Oil qarşısı, Heydər Əliyev prospekti istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.9361009201706</longitude>
+					<latitude>40.45274440369727</latitude>
+					<altitude>0</altitude>
+					<heading>-3.810085050120272e-09</heading>
+					<tilt>0</tilt>
+					<range>999.8744610136137</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.9361009201706,40.45274440369728,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - Binəqədi Balaxanı yolu ilə kəsişmə, Zabrat istiqaməti 
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.94012000556369</longitude>
+					<latitude>40.45946598758303</latitude>
+					<altitude>0</altitude>
+					<heading>3.610349396679044e-09</heading>
+					<tilt>0</tilt>
+					<range>999.999959451358</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94012000556369,40.45946598758304,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Sabunçu rayonu, şəhər şossesi (Zabrat şossesi) - Binəqədi Balaxanı yolu ilə kəsişmə, Heydər Əliyev prospekti istiqaməti
+Yeni Г dirəyi
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.94008200251882</longitude>
+					<latitude>40.45986598985448</latitude>
+					<altitude>0</altitude>
+					<heading>1.634458425811968e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000010095775</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.94008200251882,40.45986598985448,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>QP-X</name>
+				<description>Xətai rayonu, 8 Noyabr pr - Çevik Polis Alayının yaxınlığı, Zığ istiaməti
+Piyada keçidi üzərinə
+smart kamera quraşdırılıb</description>
+				<LookAt>
+					<longitude>49.90722200213752</longitude>
+					<latitude>40.37686600066615</latitude>
+					<altitude>0</altitude>
+					<heading>1.384711730559408e-09</heading>
+					<tilt>0</tilt>
+					<range>1020.217189564661</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>49.90722200213752,40.37686600066615,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Qax</name>
+			<Placemark>
+				<name>Q1</name>
+				<LookAt>
+					<longitude>46.92791300352584</longitude>
+					<latitude>41.41769000332746</latitude>
+					<altitude>0</altitude>
+					<heading>2.332453414541908e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00011139638</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.92791300352584,41.41769000332746,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q2</name>
+				<LookAt>
+					<longitude>46.93068499878365</longitude>
+					<latitude>41.42276999699224</latitude>
+					<altitude>0</altitude>
+					<heading>-8.047566677226247e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.00011787817</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.93068499878365,41.42276999699224,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q3</name>
+				<LookAt>
+					<longitude>46.89362600264609</longitude>
+					<latitude>41.41549400492107</latitude>
+					<altitude>0</altitude>
+					<heading>1.750415088388765e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000149673889</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.89362600264609,41.41549400492107,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q4</name>
+				<LookAt>
+					<longitude>46.90710499908327</longitude>
+					<latitude>41.41564900145088</latitude>
+					<altitude>0</altitude>
+					<heading>-6.064268194506043e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000122877363</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.90710499908327,41.41564900145089,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q5</name>
+				<LookAt>
+					<longitude>46.91989700015789</longitude>
+					<latitude>41.41620999811541</latitude>
+					<altitude>0</altitude>
+					<heading>1.044525962939433e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000077643868</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.9198970001579,41.41620999811541,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q6</name>
+				<LookAt>
+					<longitude>46.89153799891347</longitude>
+					<latitude>41.43268099911995</latitude>
+					<altitude>0</altitude>
+					<heading>-7.190216357290943e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000153638806</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.89153799891348,41.43268099911995,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q7</name>
+				<LookAt>
+					<longitude>46.9117919997939</longitude>
+					<latitude>41.42330400006432</latitude>
+					<altitude>0</altitude>
+					<heading>-1.364012680692444e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000052608087</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.9117919997939,41.42330400006433,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q8</name>
+				<LookAt>
+					<longitude>46.91797500188995</longitude>
+					<latitude>41.41956500238215</latitude>
+					<altitude>0</altitude>
+					<heading>1.250342836931619e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000130679422</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.91797500188996,41.41956500238215,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q9</name>
+				<LookAt>
+					<longitude>46.91438000026469</longitude>
+					<latitude>41.41873500008355</latitude>
+					<altitude>0</altitude>
+					<heading>1.750672713317963e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000103282482</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.91438000026469,41.41873500008355,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q10</name>
+				<LookAt>
+					<longitude>46.92756399589132</longitude>
+					<latitude>41.42001899697119</latitude>
+					<altitude>0</altitude>
+					<heading>-2.718203808528528e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.00017222431</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.92756399589133,41.42001899697119,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q11</name>
+				<LookAt>
+					<longitude>46.92946300065214</longitude>
+					<latitude>41.42047599836196</latitude>
+					<altitude>0</altitude>
+					<heading>4.314486036498888e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000043690311</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.92946300065215,41.42047599836196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q12</name>
+				<LookAt>
+					<longitude>46.90318700113959</longitude>
+					<latitude>41.41635799861421</latitude>
+					<altitude>0</altitude>
+					<heading>7.538646122645271e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000105326841</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.90318700113959,41.41635799861421,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q13</name>
+				<LookAt>
+					<longitude>46.9161350015989</longitude>
+					<latitude>41.42285700567503</latitude>
+					<altitude>0</altitude>
+					<heading>1.05786202871881e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000166277197</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.9161350015989,41.42285700567503,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q14</name>
+				<LookAt>
+					<longitude>46.93195000187069</longitude>
+					<latitude>41.41674500147867</latitude>
+					<altitude>0</altitude>
+					<heading>1.237518840455958e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000175901704</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.93195000187069,41.41674500147867,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q15</name>
+				<LookAt>
+					<longitude>46.87026899905132</longitude>
+					<latitude>41.31947599714406</latitude>
+					<altitude>0</altitude>
+					<heading>-6.263816195221065e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000094580713</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.87026899905131,41.31947599714406,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q16</name>
+				<LookAt>
+					<longitude>46.90593999958011</longitude>
+					<latitude>41.42171299972068</latitude>
+					<altitude>0</altitude>
+					<heading>-2.778087292071123e-10</heading>
+					<tilt>0</tilt>
+					<range>1000.000121080687</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.90593999958011,41.42171299972068,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Q17</name>
+				<LookAt>
+					<longitude>46.92662599797043</longitude>
+					<latitude>41.42119499709341</latitude>
+					<altitude>0</altitude>
+					<heading>-1.342731589318771e-09</heading>
+					<tilt>0</tilt>
+					<range>1000.000075109745</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>46.92662599797043,41.42119499709341,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>testedirem</name>
+		</Folder>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>
