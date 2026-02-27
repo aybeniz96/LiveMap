@@ -12,14 +12,24 @@
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin0">
+	<StyleMap id="msn_K">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
+			<styleUrl>#sn_K</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			<styleUrl>#sh_K</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_K0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_K0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_K0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin">
@@ -31,34 +41,6 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -67,6 +49,82 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="sh_K">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_K0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_K">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_K0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff00</color>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/K-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Folder>
 		<name>Yerlerim</name>
@@ -102,7 +160,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999930599014</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K0</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.7637629884589,40.45130400010279,0</coordinates>
@@ -122,7 +180,7 @@ smart kamera quraşdırılıb</description>
 					<range>519.8835629481605</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9389380509361,40.41587151236418,0</coordinates>
@@ -142,7 +200,7 @@ smart kamera quraşdırılıb</description>
 					<range>453.3567502984478</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94267586026953,40.4108532936857,0</coordinates>
@@ -161,7 +219,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.99983316371</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.95279301075649,40.39692601364429,0</coordinates>
@@ -180,7 +238,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000047232797</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.95094499534978,40.3993580033672,0</coordinates>
@@ -199,7 +257,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.999961390462</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.95201601924262,40.39839400685079,0</coordinates>
@@ -219,7 +277,7 @@ smart kamera quraşdırılıb</description>
 					<range>750.3230905887294</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84840530183638,40.40924420537678,0</coordinates>
@@ -239,7 +297,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9485642106374</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80688101507976,40.40609700844758,0</coordinates>
@@ -259,7 +317,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999692785958</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9257729947784,40.39346899030343,0</coordinates>
@@ -278,7 +336,7 @@ smart kamera quraşdırılıb</description>
 					<range>769.6010135396606</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.90840679789787,40.42554963024053,0</coordinates>
@@ -297,7 +355,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000009725704</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87868399532482,40.42540300465892,0</coordinates>
@@ -316,7 +374,7 @@ smart kamera quraşdırılıb</description>
 					<range>1010.358173342939</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84074701119683,40.37806698688453,0</coordinates>
@@ -335,7 +393,7 @@ smart kamera quraşdırılıb</description>
 					<range>471.6284777028647</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85340159588731,40.41478865646642,0</coordinates>
@@ -354,7 +412,7 @@ smart kamera quraşdırılıb</description>
 					<range>471.6284777028647</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85340159588731,40.41478865646642,0</coordinates>
@@ -374,7 +432,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000057517577</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.78309499824585,40.43353299415234,0</coordinates>
@@ -394,7 +452,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000058680824</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.82365001000208,40.40828301290259,0</coordinates>
@@ -414,7 +472,7 @@ Restavrasiya olunmuş Г dirəyi ilə əvəzləndi
 					<range>1021.998985629982</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87891098461019,40.37882102497662,0</coordinates>
@@ -433,7 +491,7 @@ smart kamera quraşdırılıb</description>
 					<range>1020.375840467832</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83436599303707,40.35648698902283,0</coordinates>
@@ -452,7 +510,7 @@ smart kamera quraşdırılıb</description>
 					<range>1022.588328295106</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83626000632714,40.34971500136871,0</coordinates>
@@ -471,7 +529,7 @@ smart kamera quraşdırılıb</description>
 					<range>1020.774369523635</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83435000099023,40.35360899949818,0</coordinates>
@@ -490,7 +548,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000006642394</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.79973899949602,40.42124799764988,0</coordinates>
@@ -510,7 +568,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000040859605</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.8398119964878,40.38859500094105,0</coordinates>
@@ -529,7 +587,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00003725702</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.79739999993307,40.42091700289357,0</coordinates>
@@ -548,7 +606,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000029308666</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.79328299088683,40.42564198781608,0</coordinates>
@@ -568,7 +626,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1000.00004338816</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93889700554604,40.41585501023527,0</coordinates>
@@ -587,7 +645,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1003.535444795886</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94413274174583,40.4090262735083,0</coordinates>
@@ -606,7 +664,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1000.000033401821</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94763099449517,40.40403299534621,0</coordinates>
@@ -625,7 +683,7 @@ Yeni Г dirəyi Bizbizə restoranı yaxınlığında</description>
 					<range>1000.000229014699</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94066597350895,40.41384801147278,0</coordinates>
@@ -644,7 +702,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1001.22141415057</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94402712651969,40.40941017779658,0</coordinates>
@@ -663,7 +721,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1009.391152287607</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94607582431837,40.40668868739913,0</coordinates>
@@ -683,7 +741,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1138.423200636845</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.8459299063945,40.37597666939853,0</coordinates>
@@ -703,7 +761,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1022.262521716918</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.86479001082656,40.38052700571159,0</coordinates>
@@ -722,7 +780,7 @@ TŞ5-211 üzərinə qol əlavə olunub Mövcud PTZ kamera smart kamera ilə əv�
 					<range>1036.029358764536</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.86517379405456,40.3790994124849,0</coordinates>
@@ -742,7 +800,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1007.428090231091</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80784961426777,40.40478682832217,0</coordinates>
@@ -762,7 +820,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1030.896566259795</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80737784001574,40.40554681433712,0</coordinates>
@@ -782,7 +840,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1000.62623398689</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80653235956985,40.40543497731534,0</coordinates>
@@ -802,7 +860,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1008.154708398225</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80334350337876,40.41174534286905,0</coordinates>
@@ -821,7 +879,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1006.385401978906</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80339608189306,40.41089272454011,0</coordinates>
@@ -841,7 +899,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>999.9999776152381</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83034800319085,40.38260900237353,0</coordinates>
@@ -861,7 +919,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1006.386554967096</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84307039370426,40.41213827114152,0</coordinates>
@@ -881,7 +939,7 @@ mövcud PTZ kamera sökülüb 3-252 üzərinə əlavə olnacaq</description>
 					<range>1011.059958142405</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84234715809298,40.41227612883633,0</coordinates>
@@ -901,7 +959,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>999.9999791143592</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.89726399755236,40.42815298717255,0</coordinates>
@@ -921,7 +979,7 @@ Qırıq xətlənmə 30 m dən  çox məsafə olduğuna görə mövcud PTZ kamera
 					<range>1037.652189840538</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84582770835968,40.41324867681823,0</coordinates>
@@ -940,7 +998,7 @@ Qırıq xətlənmə 30 m dən  çox məsafə olduğuna görə mövcud PTZ kamera
 					<range>1000.000036253643</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87637200367318,40.42425299312897,0</coordinates>
@@ -959,7 +1017,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1000.000026043357</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84982900974788,40.41405199841026,0</coordinates>
@@ -978,7 +1036,7 @@ Mövcud PTZ kameranın yeri uyğun gəlmədiyinə görə smart kamera yaxınlıq
 					<range>1016.93969760243</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85846363956521,40.41563664196408,0</coordinates>
@@ -998,7 +1056,7 @@ Zolaq ləğv olunub kameranın yeri uyğun deyil</description>
 					<range>1010.856675054621</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.88844655719315,40.4279275300388,0</coordinates>
@@ -1018,7 +1076,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1072.815987555812</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.81958876601514,40.40740903192286,0</coordinates>
@@ -1037,7 +1095,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1044.589856663348</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84879031627827,40.40753246382827,0</coordinates>
@@ -1057,7 +1115,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>999.9999831602054</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84073900820333,40.38607200954094,0</coordinates>
@@ -1076,7 +1134,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1000.000137601907</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.77882798522421,40.43713199683761,0</coordinates>
@@ -1095,7 +1153,7 @@ PTZ kamera yerində qalacaq, smart kamera başqa ünvana quraşdırılacaq</desc
 					<range>1040.070854842787</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80863396528867,40.40395978174541,0</coordinates>
@@ -1114,7 +1172,7 @@ Mövcud PTZ kameranın yeri uyğun gəlmədiyinə görə yaxınlıqda olan 3-332
 					<range>1005.039858637694</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.81188290515685,40.40507183310853,0</coordinates>
@@ -1133,7 +1191,7 @@ TŞ3-060 yeni Г dirəyi ilə və Mövcud PTZ smart kamera ilə əvəz olunacaq<
 					<range>1000.00000918886</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.82230400769267,40.40793100017565,0</coordinates>
@@ -1152,7 +1210,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1000.000004324201</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.96166100468141,40.35622099064559,0</coordinates>
@@ -1171,7 +1229,7 @@ mövcud PTZ kameranın smart kamera ilə əvəz olunması uyğun gəlmir</descri
 					<range>1003.235994616196</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.95983544953904,40.37064143871721,0</coordinates>
@@ -1190,7 +1248,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1003.849796888128</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.95828400618266,40.37443578738988,0</coordinates>
@@ -1210,7 +1268,7 @@ Mövcud PTZ kamera smart kamera ilə əvəz olunacaq</description>
 					<range>1024.341796855967</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.7965624050184,40.41973061108294,0</coordinates>
@@ -1229,7 +1287,7 @@ Mövcud PTZ kameranın yeri smart kamera ilə əvəz etmək uyğun deyil</descri
 					<range>1104.449942494654</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84721855002172,40.37341079426068,0</coordinates>
@@ -1248,7 +1306,7 @@ Mövcud PTZ kameranın yeri smart kamera ilə əvəz etmək uyğun deyil</descri
 					<range>1016.931041328365</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83173611640119,40.37894804603405,0</coordinates>
@@ -1267,7 +1325,7 @@ TŞ3-045 yeri dəyişdirib yeni Q dirəyi üzərinə quraşdırılacaq</descript
 					<range>1024.050252629444</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84252081399612,40.37745639565996,0</coordinates>
@@ -1287,7 +1345,7 @@ Mövcud PTZ kameranın yeri smart kameraya uyğun gəlmədiyinə görə yaxınl�
 					<range>1012.682287126341</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84077599154337,40.37710500418626,0</coordinates>
@@ -1307,7 +1365,7 @@ smart kamera quraşdırılıb</description>
 					<range>1029.903933836079</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85672639280519,40.37604264475753,0</coordinates>
@@ -1327,7 +1385,7 @@ smart kamera quraşdırılıb</description>
 					<range>1029.4252916641</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84350155012902,40.37059192377081,0</coordinates>
@@ -1347,7 +1405,7 @@ smart kamera quraşdırılıb</description>
 					<range>1023.377166757434</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84839501699084,40.37233800112412,0</coordinates>
@@ -1367,7 +1425,7 @@ Ağac mane olduğuna görə yaxınlıqda yeni Q dirəyi quraşdırılacaq</descr
 					<range>1000.000027868564</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.82883600678805,40.38403199717748,0</coordinates>
@@ -1387,7 +1445,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999445997837</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80817799492132,40.40296201416542,0</coordinates>
@@ -1407,7 +1465,7 @@ Ağac mane olduğuna görə yaxınlıqda yeni Q dirəyi quraşdırılacaq</descr
 					<range>1000.000046685826</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80370900677244,40.38489300061921,0</coordinates>
@@ -1427,7 +1485,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000069072303</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80303198920249,40.38935000566153,0</coordinates>
@@ -1447,7 +1505,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999942640495</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80246800044394,40.39292200786872,0</coordinates>
@@ -1467,7 +1525,7 @@ smart kamera quraşdırılıb</description>
 					<range>1002.896507712231</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.80992524234451,40.401520973032,0</coordinates>
@@ -1487,7 +1545,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000041659846</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.82060699735374,40.3936429964182,0</coordinates>
@@ -1507,7 +1565,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.763571715587</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.81608073682244,40.39588424608434,0</coordinates>
@@ -1527,7 +1585,7 @@ smart kamera quraşdırılıb</description>
 					<range>1021.572753977083</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85293301766742,40.37822700967757,0</coordinates>
@@ -1547,7 +1605,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000023339982</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84039900612819,40.3943599950786,0</coordinates>
@@ -1567,7 +1625,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000033362401</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.84262800440149,40.38940700898899,0</coordinates>
@@ -1587,7 +1645,7 @@ smart kamera quraşdırılıb</description>
 					<range>1021.071755717768</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.86139701604449,40.37720299456497,0</coordinates>
@@ -1607,7 +1665,7 @@ smart kamera quraşdırılıb</description>
 					<range>1028.202604494515</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.82392610521471,40.391061272478,0</coordinates>
@@ -1627,7 +1685,7 @@ smart kamera quraşdırılıb</description>
 					<range>1021.897520424264</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85518599579994,40.37883099711837,0</coordinates>
@@ -1647,7 +1705,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000022611856</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94878600215508,40.40253099965172,0</coordinates>
@@ -1667,7 +1725,7 @@ smart kamera quraşdırılıb</description>
 					<range>1023.204442764826</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.86828300968121,40.37816798970659,0</coordinates>
@@ -1687,7 +1745,7 @@ smart kamera quraşdırılıb</description>
 					<range>1024.260895645178</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87248840348088,40.37737749044452,0</coordinates>
@@ -1707,7 +1765,7 @@ smart kamera quraşdırılıb</description>
 					<range>1022.256583357831</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87636300627738,40.37840799454801,0</coordinates>
@@ -1727,7 +1785,7 @@ smart kamera quraşdırılıb</description>
 					<range>1022.048156731658</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.87801300608423,40.37896300471053,0</coordinates>
@@ -1747,7 +1805,7 @@ smart kamera quraşdırılıb</description>
 					<range>1019.170090675251</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.88591401016351,40.37929099915057,0</coordinates>
@@ -1767,7 +1825,7 @@ smart kamera quraşdırılıb</description>
 					<range>1019.474561337937</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.88584799741345,40.37900099587571,0</coordinates>
@@ -1787,7 +1845,7 @@ smart kamera quraşdırılıb</description>
 					<range>1018.928854629653</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.89599099561966,40.37798500058668,0</coordinates>
@@ -1807,7 +1865,7 @@ smart kamera quraşdırılıb</description>
 					<range>1019.143422975586</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.89646900057647,40.37764099826532,0</coordinates>
@@ -1827,7 +1885,7 @@ smart kamera quraşdırılıb</description>
 					<range>1020.217189564661</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.90722200213752,40.37686600066615,0</coordinates>
@@ -1847,7 +1905,7 @@ smart kamera quraşdırılıb</description>
 					<range>1018.428991040853</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.91454900157988,40.37646000099832,0</coordinates>
@@ -1867,7 +1925,7 @@ smart kamera quraşdırılıb</description>
 					<range>1019.050859300117</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.91332200853878,40.37630799584819,0</coordinates>
@@ -1887,7 +1945,7 @@ smart kamera quraşdırılıb</description>
 					<range>1014.648118105158</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9247560020534,40.37495600019306,0</coordinates>
@@ -1907,7 +1965,7 @@ smart kamera quraşdırılıb</description>
 					<range>1014.485367870313</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9249890030942,40.37436299695262,0</coordinates>
@@ -1927,7 +1985,7 @@ smart kamera quraşdırılıb</description>
 					<range>1014.612164783831</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93510700758659,40.36943999488471,0</coordinates>
@@ -1947,7 +2005,7 @@ smart kamera quraşdırılıb</description>
 					<range>1014.88694948612</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93488700176591,40.36916899860476,0</coordinates>
@@ -1967,7 +2025,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00002448246</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83748799043229,40.40257600888884,0</coordinates>
@@ -1987,7 +2045,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000005355891</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83745300843722,40.40187399298745,0</coordinates>
@@ -2007,7 +2065,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000015681959</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.83845200199649,40.40004799870723,0</coordinates>
@@ -2027,7 +2085,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999814347655</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85313701064165,40.40087300297652,0</coordinates>
@@ -2047,7 +2105,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000004338676</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.85227399805706,40.40042599799792,0</coordinates>
@@ -2067,7 +2125,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00001573816</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9338819981487,40.44196100059245,0</coordinates>
@@ -2087,7 +2145,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000004244627</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93346000676722,40.44087099989673,0</coordinates>
@@ -2107,7 +2165,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000025095825</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93436800199456,40.4451140019476,0</coordinates>
@@ -2127,7 +2185,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000022178113</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93534099609378,40.44865299669394,0</coordinates>
@@ -2147,7 +2205,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.432339187895</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93516758704012,40.44873628042368,0</coordinates>
@@ -2167,7 +2225,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.9999945738836</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.93630399510939,40.45269599455289,0</coordinates>
@@ -2187,7 +2245,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.8744610136137</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.9361009201706,40.45274440369728,0</coordinates>
@@ -2207,7 +2265,7 @@ smart kamera quraşdırılıb</description>
 					<range>999.999959451358</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94012000556369,40.45946598758304,0</coordinates>
@@ -2227,7 +2285,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000010095775</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.94008200251882,40.45986598985448,0</coordinates>
@@ -2247,7 +2305,7 @@ smart kamera quraşdırılıb</description>
 					<range>1020.217189564661</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#msn_K</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>49.90722200213752,40.37686600066615,0</coordinates>
