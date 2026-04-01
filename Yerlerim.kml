@@ -5,11 +5,21 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin0">
@@ -20,6 +30,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_grn-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-blank</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_ylw-circle">
@@ -51,6 +71,15 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin0">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -69,6 +98,15 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl0">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -77,6 +115,22 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+	</Style>
+	<Style id="sh_grn-blank">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sh_ylw-circle">
 		<IconStyle>
@@ -111,6 +165,22 @@
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_grn-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
 	</Style>
@@ -2349,7 +2419,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000059328064</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41305000034105,41.72196199613421,0</coordinates>
@@ -2366,10 +2436,10 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000147043224</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>46.41636500091879,41.71830100178619,0</coordinates>
+					<coordinates>46.41636500091878,41.71830100178619,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -2383,7 +2453,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000115393203</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41743599980819,41.71769699779683,0</coordinates>
@@ -2400,7 +2470,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000094026668</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42128699590094,41.71082499864322,0</coordinates>
@@ -2417,7 +2487,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000086468442</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40807800053137,41.72671799845492,0</coordinates>
@@ -2434,7 +2504,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011590524</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40359500018254,41.72450999897199,0</coordinates>
@@ -2451,7 +2521,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000093522241</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.3957469997686,41.72133800045364,0</coordinates>
@@ -2468,7 +2538,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000079630142</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40974700218057,41.72488099996207,0</coordinates>
@@ -2485,7 +2555,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000126765059</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41445800074302,41.71662899815512,0</coordinates>
@@ -2502,7 +2572,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000128372921</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42481700001994,41.70592200112907,0</coordinates>
@@ -2519,7 +2589,7 @@ smart kamera quraşdırılıb</description>
 					<range>1292.967372240784</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41943962141721,41.72195843407328,0</coordinates>
@@ -2536,7 +2606,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000095575488</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42115699520288,41.72131799777832,0</coordinates>
@@ -2553,7 +2623,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000174806778</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42307299991832,41.72355800035127,0</coordinates>
@@ -2570,7 +2640,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000119686961</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42295800275792,41.72457700004203,0</coordinates>
@@ -2587,7 +2657,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000157208993</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41283599984185,41.70229600193941,0</coordinates>
@@ -2604,7 +2674,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000187022774</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42376100086457,41.70715500103564,0</coordinates>
@@ -2621,7 +2691,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000119919901</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42559300090932,41.70517199918842,0</coordinates>
@@ -2638,7 +2708,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000104934538</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41124300317387,41.67854500376922,0</coordinates>
@@ -2655,7 +2725,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000134364795</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.31500299823536,41.78753099843437,0</coordinates>
@@ -2672,7 +2742,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000076607909</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42764999798995,41.70279200003709,0</coordinates>
@@ -2692,7 +2762,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000117316997</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65286300123151,41.63039699825668,0</coordinates>
@@ -2709,7 +2779,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000081112683</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64871300098664,41.62114700118373,0</coordinates>
@@ -2726,7 +2796,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000125886583</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65509999880135,41.61469999755359,0</coordinates>
@@ -2743,7 +2813,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000085399102</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6559299995854,41.59285199751294,0</coordinates>
@@ -2760,7 +2830,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000037624964</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6411400019445,41.6286580002654,0</coordinates>
@@ -2777,7 +2847,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000074490605</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64277700161024,41.62931600199643,0</coordinates>
@@ -2794,7 +2864,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000110966712</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63907799930292,41.63014399896605,0</coordinates>
@@ -2811,7 +2881,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011042819</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.62203800038703,41.63120599872497,0</coordinates>
@@ -2828,7 +2898,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000110039281</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.60951400055482,41.6328189980992,0</coordinates>
@@ -2845,7 +2915,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000076180154</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.66321700141356,41.56190299920762,0</coordinates>
@@ -2862,7 +2932,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000159745105</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65506000038271,41.63909799903669,0</coordinates>
@@ -2879,7 +2949,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000188145445</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65576000307748,41.63858200003313,0</coordinates>
@@ -2896,7 +2966,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000092472312</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65486099930723,41.6373470013703,0</coordinates>
@@ -2913,7 +2983,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000080859056</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65502500095648,41.64097300047548,0</coordinates>
@@ -2930,7 +3000,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000154383282</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63521100166424,41.62761999969615,0</coordinates>
@@ -2947,7 +3017,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -2964,7 +3034,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -2981,7 +3051,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -2998,7 +3068,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000162713844</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64274000104263,41.63029499896381,0</coordinates>
@@ -3015,7 +3085,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000144587836</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64198600048839,41.63158700071592,0</coordinates>
@@ -3032,10 +3102,10 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000181888162</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>46.61314899758433,41.63177899800222,0</coordinates>
+					<coordinates>46.61314899758434,41.63177899800222,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -3049,7 +3119,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000140156804</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#m_ylw-pushpin1</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6511539979744,41.63287699900296,0</coordinates>
@@ -3347,6 +3417,1489 @@ smart kamera quraşdırılıb</description>
 					<coordinates>46.92662599797043,41.42119499709341,0</coordinates>
 				</Point>
 			</Placemark>
+		</Folder>
+		<Folder>
+			<name>DIN Onurğa</name>
+			<Folder>
+				<name>Bakı-Şamaxı magistralı</name>
+				<Placemark>
+					<name>Müşfiq Postu</name>
+					<LookAt>
+						<longitude>49.62523380673585</longitude>
+						<latitude>40.46928989395538</latitude>
+						<altitude>0</altitude>
+						<heading>4.371856881843128e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999656323175</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.62523380673586,40.46928989395538,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Şamaxı-61 km</name>
+					<LookAt>
+						<longitude>49.22308840467007</longitude>
+						<latitude>40.49235830113243</latitude>
+						<altitude>0</altitude>
+						<heading>3.032509402705434e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000013553144</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.22308840467007,40.49235830113242,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Mərəzə-93 km</name>
+					<LookAt>
+						<longitude>48.89479009894342</longitude>
+						<latitude>40.53208000205353</latitude>
+						<altitude>0</altitude>
+						<heading>-6.866690335092475e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00000414187</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.89479009894342,40.53208000205354,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Muğanlı-133 km</name>
+					<LookAt>
+						<longitude>48.5287984948883</longitude>
+						<latitude>40.66914689610646</latitude>
+						<altitude>0</altitude>
+						<heading>-3.331258903935303e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000020134042</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.5287984948883,40.66914689610646,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-İsmayıllı-177 km</name>
+					<LookAt>
+						<longitude>48.21107529634829</longitude>
+						<latitude>40.62613070497134</latitude>
+						<altitude>0</altitude>
+						<heading>-2.37772861043254e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000007770927</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.21107529634829,40.62613070497134,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Göyçay-RPŞ</name>
+					<LookAt>
+						<longitude>47.74659889337963</longitude>
+						<latitude>40.63612749752057</latitude>
+						<altitude>0</altitude>
+						<heading>-4.311547203973218e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000044762485</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.74659889337963,40.63612749752057,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bakı-Quba magsitralı</name>
+				<Placemark>
+					<name>HW-Quba-21 km</name>
+					<LookAt>
+						<longitude>49.70468635859252</longitude>
+						<latitude>40.50644060674758</latitude>
+						<altitude>0</altitude>
+						<heading>0.0007884715572920466</heading>
+						<tilt>26.5829797861986</tilt>
+						<range>1261.974458445559</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.70468635859253,40.50644060674757,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Quba-51 km</name>
+					<LookAt>
+						<longitude>49.48450509341009</longitude>
+						<latitude>40.70277329711139</latitude>
+						<altitude>0</altitude>
+						<heading>-4.297527318937325e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000029121144</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.48450509341009,40.70277329711139,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-ZARAT Postu</name>
+					<LookAt>
+						<longitude>49.28362300031863</longitude>
+						<latitude>40.94201700023937</latitude>
+						<altitude>0</altitude>
+						<heading>2.08790692619354e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000025309033</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.28362300031863,40.94201700023938,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Quba-87 km</name>
+					<LookAt>
+						<longitude>49.24421169608716</longitude>
+						<latitude>40.97168829769032</latitude>
+						<altitude>0</altitude>
+						<heading>-2.565581711583819e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000028554806</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.24421169608716,40.97168829769032,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qəndob</name>
+					<LookAt>
+						<longitude>48.9090701027449</longitude>
+						<latitude>41.25328000304859</latitude>
+						<altitude>0</altitude>
+						<heading>1.809964613689806e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000022881017</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.9090701027449,41.25328000304859,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qəndob-Quba-20 km (Mirzəqışlaq kəndi)</name>
+					<LookAt>
+						<longitude>48.71061800163007</longitude>
+						<latitude>41.34925299880681</latitude>
+						<altitude>0</altitude>
+						<heading>1.076884926268643e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000020181984</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.71061800163007,41.34925299880681,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Quba-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>48.71646339450714</longitude>
+						<latitude>41.34761829686424</latitude>
+						<altitude>0</altitude>
+						<heading>-3.628739363847267e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00002205511</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.71646339450715,41.34761829686424,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-SDK-Postu</name>
+					<LookAt>
+						<longitude>48.5156367994601</longitude>
+						<latitude>41.60019499594976</latitude>
+						<altitude>0</altitude>
+						<heading>-3.584898598117974e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00004852951</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.51563679946009,41.60019499594976,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qusar-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>48.4118683982968</longitude>
+						<latitude>41.41668829594112</latitude>
+						<altitude>0</altitude>
+						<heading>-1.126724218127176e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000027860081</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.4118683982968,41.41668829594112,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Zirvə-AGG</name>
+					<LookAt>
+						<longitude>48.14561009387596</longitude>
+						<latitude>41.32299629688525</latitude>
+						<altitude>0</altitude>
+						<heading>-4.043741319239308e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9998768615835</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.14561009387596,41.32299629688525,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Yaşma-AGG</name>
+					<LookAt>
+						<longitude>49.48939899718891</longitude>
+						<latitude>40.71409399888804</latitude>
+						<altitude>0</altitude>
+						<heading>-1.833615218301169e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000038472032</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.48939899718892,40.71409399888804,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Giləzi-AGG</name>
+					<LookAt>
+						<longitude>49.36192500399809</longitude>
+						<latitude>40.8724450009925</latitude>
+						<altitude>0</altitude>
+						<heading>2.616247947659534e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000035236844</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.36192500399809,40.8724450009925,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Siyəzən-AGG</name>
+					<LookAt>
+						<longitude>49.15800500473114</longitude>
+						<latitude>41.09525000341893</latitude>
+						<altitude>0</altitude>
+						<heading>3.10982232590245e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000026175365</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.15800500473113,41.09525000341892,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Yeni-Qəndob-AGG</name>
+					<LookAt>
+						<longitude>48.90999802306748</longitude>
+						<latitude>41.26932198653291</latitude>
+						<altitude>0</altitude>
+						<heading>3.048450342768929e-09</heading>
+						<tilt>0</tilt>
+						<range>1002.254957153082</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.90999802306748,41.26932198653291,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Xaçmaz-AGG</name>
+					<LookAt>
+						<longitude>48.75689204364733</longitude>
+						<latitude>41.42640595883295</latitude>
+						<altitude>0</altitude>
+						<heading>6.082619995018088e-10</heading>
+						<tilt>0</tilt>
+						<range>1003.833585534835</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.75689204364733,41.42640595883296,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bakı-Qazax magistralı</name>
+				<Placemark>
+					<name>HW-Qızıldaş-9 km</name>
+					<LookAt>
+						<longitude>49.63702680548216</longitude>
+						<latitude>40.47590170387979</latitude>
+						<altitude>0</altitude>
+						<heading>3.558627216449083e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000007076348</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.63702680548216,40.47590170387979,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qızıldaş-29 km</name>
+					<LookAt>
+						<longitude>49.58778830465321</longitude>
+						<latitude>40.30783680588699</latitude>
+						<altitude>0</altitude>
+						<heading>3.010083311646436e-09</heading>
+						<tilt>0</tilt>
+						<range>999.999977480639</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.58778830465321,40.30783680588699,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Qaradağ DYP postu</name>
+					<LookAt>
+						<longitude>49.44951839995927</longitude>
+						<latitude>40.1455449960707</latitude>
+						<altitude>0</altitude>
+						<heading>-2.626820111420718e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000037293029</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.44951839995927,40.1455449960707,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sahil-32-km-AGG</name>
+					<LookAt>
+						<longitude>49.57427399584311</longitude>
+						<latitude>40.22871400395248</latitude>
+						<altitude>0</altitude>
+						<heading>-2.684690303849947e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000049015783</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.5742739958431,40.22871400395248,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qobustan-55 km</name>
+					<LookAt>
+						<longitude>49.40172390157222</longitude>
+						<latitude>40.07606439861213</latitude>
+						<altitude>0</altitude>
+						<heading>1.012192444047675e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00000608581</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.40172390157222,40.07606439861213,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Navai-Postu</name>
+					<LookAt>
+						<longitude>49.08916249929433</longitude>
+						<latitude>40.03297610133049</latitude>
+						<altitude>0</altitude>
+						<heading>-4.539160419197472e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000048141199</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.08916249929433,40.03297610133049,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Hacıqabul 115-ci km-AGG</name>
+					<LookAt>
+						<longitude>48.94410710248093</longitude>
+						<latitude>40.0151123023693</latitude>
+						<altitude>0</altitude>
+						<heading>1.595210381042708e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000029014837</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.94410710248094,40.0151123023693,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Şirvan-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>48.93282639964827</longitude>
+						<latitude>39.95040180080878</latitude>
+						<altitude>0</altitude>
+						<heading>-2.258734518134946e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000013074554</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.93282639964827,39.95040180080878,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qarasu-AGG</name>
+					<LookAt>
+						<longitude>48.23793129561645</longitude>
+						<latitude>40.3093715973282</latitude>
+						<altitude>0</altitude>
+						<heading>-2.835801637320959e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000036915169</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.23793129561645,40.3093715973282,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Kürdəmir-215 km</name>
+					<LookAt>
+						<longitude>47.93435360569296</longitude>
+						<latitude>40.4290884060327</latitude>
+						<altitude>0</altitude>
+						<heading>3.691914721485177e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000012977915</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.93435360569296,40.4290884060327,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ucar-240 km</name>
+					<LookAt>
+						<longitude>47.64893240656207</longitude>
+						<latitude>40.49435690565349</latitude>
+						<altitude>0</altitude>
+						<heading>4.261214926139057e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000032984731</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.64893240656206,40.49435690565349,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Yevlax-Postu</name>
+					<LookAt>
+						<longitude>47.20341269743439</longitude>
+						<latitude>40.59134619998496</latitude>
+						<altitude>0</altitude>
+						<heading>-1.669339569003578e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000023663251</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.20341269743439,40.59134619998496,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Goran-312 km</name>
+					<LookAt>
+						<longitude>46.85518679814459</longitude>
+						<latitude>40.64524209801429</latitude>
+						<altitude>0</altitude>
+						<heading>-1.208578973409321e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000018586751</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.85518679814459,40.64524209801429,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Zazalı-Postu</name>
+					<LookAt>
+						<longitude>46.48711010480896</longitude>
+						<latitude>40.68950330033182</latitude>
+						<altitude>0</altitude>
+						<heading>3.13523177725266e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000027799454</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.48711010480896,40.68950330033182,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Gəncə ŞBPİ </name>
+					<LookAt>
+						<longitude>46.35217360477096</longitude>
+						<latitude>40.68033230050757</latitude>
+						<altitude>0</altitude>
+						<heading>3.109879575886716e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000028650648</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.35217360477096,40.68033230050756,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Şəmkir-Postu</name>
+					<LookAt>
+						<longitude>46.22369510797329</longitude>
+						<latitude>40.73462640265895</latitude>
+						<altitude>0</altitude>
+						<heading>5.203002611757857e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000059380916</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.2236951079733,40.73462640265895,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Zəyəm-418 km</name>
+					<LookAt>
+						<longitude>45.90049829601069</longitude>
+						<latitude>40.91466999440627</latitude>
+						<altitude>0</altitude>
+						<heading>-2.612733434736517e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000039570911</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>45.9004982960107,40.91466999440627,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağstafa-452 km (Tərəzi postu)</name>
+					<LookAt>
+						<longitude>45.57047180084189</longitude>
+						<latitude>41.04852829762493</latitude>
+						<altitude>0</altitude>
+						<heading>5.528535563960328e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000010445304</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>45.57047180084189,41.04852829762493,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağstafa-475 km (köhnə yol)</name>
+					<LookAt>
+						<longitude>45.37030019691974</longitude>
+						<latitude>41.08140379900166</latitude>
+						<altitude>0</altitude>
+						<heading>-2.024181332595737e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000023810551</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>45.37030019691975,41.08140379900166,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qazax-Postu-AGG</name>
+					<LookAt>
+						<longitude>45.22092509712777</longitude>
+						<latitude>41.26428169750432</latitude>
+						<altitude>0</altitude>
+						<heading>-1.894354271053078e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999982019309</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>45.22092509712776,41.26428169750432,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bərdə-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>47.13151900367803</longitude>
+						<latitude>40.38715199707433</latitude>
+						<altitude>0</altitude>
+						<heading>2.383173720047205e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000023464124</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.13151900367803,40.38715199707433,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Mincəçevir-AGG</name>
+					<LookAt>
+						<longitude>47.04812519253569</longitude>
+						<latitude>40.77070859609369</latitude>
+						<altitude>0</altitude>
+						<heading>-4.874470396490763e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000043690345</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.04812519253569,40.77070859609369,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Xaldan-AGG</name>
+					<LookAt>
+						<longitude>47.22349659685905</longitude>
+						<latitude>40.7049205970107</latitude>
+						<altitude>0</altitude>
+						<heading>-2.048429881487215e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00004049254</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.22349659685905,40.7049205970107,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağdaş-AGG</name>
+					<LookAt>
+						<longitude>47.46962930517577</longitude>
+						<latitude>40.64685800924728</latitude>
+						<altitude>0</altitude>
+						<heading>3.37148019843709e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000041103958</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.46962930517578,40.64685800924728,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Qəbələ-AGG</name>
+					<LookAt>
+						<longitude>47.84879150078302</longitude>
+						<latitude>40.98315060129796</latitude>
+						<altitude>0</altitude>
+						<heading>5.135037338769663e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999748914964</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.84879150078303,40.98315060129796,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Oğuz-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>47.46678488848096</longitude>
+						<latitude>41.0767724081344</latitude>
+						<altitude>0</altitude>
+						<heading>-2.267021706273106</heading>
+						<tilt>20.56797985766127</tilt>
+						<range>624.866491163227</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.46678488848096,41.0767724081344,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bakı-Astara magistralı</name>
+				<Placemark>
+					<name>HW-Salyan-Postu</name>
+					<LookAt>
+						<longitude>49.16825179821189</longitude>
+						<latitude>39.77147329665124</latitude>
+						<altitude>0</altitude>
+						<heading>-1.143927838399213e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00002072044</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.16825179821189,39.77147329665124,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Salyan-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>48.98758599911619</longitude>
+						<latitude>39.59774799802953</latitude>
+						<altitude>0</altitude>
+						<heading>-5.63346206290181e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000029180488</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.98758599911619,39.59774799802953,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Biləsuvar-62 km</name>
+					<LookAt>
+						<longitude>48.90083010101137</longitude>
+						<latitude>39.59565830177446</latitude>
+						<altitude>0</altitude>
+						<heading>6.445998367375294e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000026299628</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.90083010101136,39.59565830177446,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Biləsuvar-81 km</name>
+					<LookAt>
+						<longitude>48.76069180381157</longitude>
+						<latitude>39.46952669869499</latitude>
+						<altitude>0</altitude>
+						<heading>2.422873403581233e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.0000364436</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.76069180381157,39.46952669869499,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Masallı-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>48.67705999823598</longitude>
+						<latitude>39.02117099772856</latitude>
+						<altitude>0</altitude>
+						<heading>-1.11064969476706e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000045914266</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.67705999823599,39.02117099772856,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Cəlilabad-110 km</name>
+					<LookAt>
+						<longitude>48.62731010564647</longitude>
+						<latitude>39.22877830137684</latitude>
+						<altitude>0</altitude>
+						<heading>3.570920060292941e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000032957376</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.62731010564646,39.22877830137684,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Lənkəran-165.5 km</name>
+					<LookAt>
+						<longitude>48.79726510250774</longitude>
+						<latitude>38.7873349980597</latitude>
+						<altitude>0</altitude>
+						<heading>1.570910943276327e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000039549431</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.79726510250774,38.7873349980597,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Astara-202 km</name>
+					<LookAt>
+						<longitude>48.84067009899282</longitude>
+						<latitude>38.48391499865529</latitude>
+						<altitude>0</altitude>
+						<heading>-6.267791888572894e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000039985679</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.84067009899281,38.48391499865529,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Sabirabad-18 km</name>
+					<LookAt>
+						<longitude>48.77491679794473</longitude>
+						<latitude>39.93302170025152</latitude>
+						<altitude>0</altitude>
+						<heading>-1.319278179097659e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000034682087</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.77491679794473,39.93302170025152,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ramin-Petrol</name>
+					<LookAt>
+						<longitude>48.46085649562501</longitude>
+						<latitude>39.99033709750291</latitude>
+						<altitude>0</altitude>
+						<heading>-2.8116357828512e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000048788067</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.46085649562501,39.99033709750291,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-İmişli-72 km</name>
+					<LookAt>
+						<longitude>48.23216179723981</longitude>
+						<latitude>39.86958830106595</latitude>
+						<altitude>0</altitude>
+						<heading>-1.769409360946465e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000040256415</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>48.23216179723982,39.86958830106595,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-İmişli-100 km</name>
+					<LookAt>
+						<longitude>47.98793609982319</longitude>
+						<latitude>39.75071880213978</latitude>
+						<altitude>0</altitude>
+						<heading>-1.130846216994353e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000026722205</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.98793609982318,39.75071880213979,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Qarabağ magistralı</name>
+				<Placemark>
+					<name>HW-Daşburun-AGG</name>
+					<LookAt>
+						<longitude>47.68744419986159</longitude>
+						<latitude>39.64310129512288</latitude>
+						<altitude>0</altitude>
+						<heading>-8.833036461360477e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000020264362</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.68744419986159,39.64310129512288,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Əhmədbəyli-AGG</name>
+					<LookAt>
+						<longitude>47.47542340092912</longitude>
+						<latitude>39.52794999740379</latitude>
+						<altitude>0</altitude>
+						<heading>5.913191847136526e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000022477222</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.47542340092912,39.52794999740379,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Horadiz-AGG  </name>
+					<LookAt>
+						<longitude>47.34481590336573</longitude>
+						<latitude>39.45355010162928</latitude>
+						<altitude>0</altitude>
+						<heading>2.138763995550142e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000048924764</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.34481590336573,39.45355010162928,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Şükürbəyli-AGG</name>
+					<LookAt>
+						<longitude>47.14233040155372</longitude>
+						<latitude>39.31484720144166</latitude>
+						<altitude>0</altitude>
+						<heading>9.843880350223215e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000017610686</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.14233040155372,39.31484720144166,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağalı-AGG</name>
+					<LookAt>
+						<longitude>46.75657949936846</longitude>
+						<latitude>39.1813536004194</latitude>
+						<altitude>0</altitude>
+						<heading>-3.989846820161908e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000038904279</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.75657949936846,39.18135360041941,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Xəndək-AGG</name>
+					<LookAt>
+						<longitude>46.65377000224328</longitude>
+						<latitude>39.41598900258843</latitude>
+						<altitude>0</altitude>
+						<heading>1.424341441890444e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999574193334</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.65377000224328,39.41598900258843,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Xocalı-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.79188699811954</longitude>
+						<latitude>39.9136869996949</latitude>
+						<altitude>0</altitude>
+						<heading>-1.206594307288089e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000040528703</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.79188699811954,39.9136869996949,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Xankəndi-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.76210199549912</longitude>
+						<latitude>39.82288999374107</latitude>
+						<altitude>0</altitude>
+						<heading>-2.882457193943349e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000043681328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.76210199549912,39.82288999374107,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Şuşa-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.74195500211216</longitude>
+						<latitude>39.756744998519</latitude>
+						<altitude>0</altitude>
+						<heading>1.350756128780104e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000000141185</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.74195500211216,39.756744998519,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağdərə-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.82628026391679</longitude>
+						<latitude>40.21571492054508</latitude>
+						<altitude>0</altitude>
+						<heading>-2.481141165345645e-09</heading>
+						<tilt>0</tilt>
+						<range>1008.902237036321</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.82628026391679,40.21571492054508,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Suqovuşan-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.74638960068548</longitude>
+						<latitude>40.32251110164421</latitude>
+						<altitude>0</altitude>
+						<heading>4.435983225330794e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000031724301</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.74638960068548,40.32251110164421,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tərtər-RPŞ-AGG</name>
+					<LookAt>
+						<longitude>46.94846099712097</longitude>
+						<latitude>40.33809299641066</latitude>
+						<altitude>0</altitude>
+						<heading>-1.863607848947369e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000065419519</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.94846099712097,40.33809299641066,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Füzuli-AGG</name>
+					<LookAt>
+						<longitude>47.16010100358066</longitude>
+						<latitude>39.60708400507045</latitude>
+						<altitude>0</altitude>
+						<heading>2.282690455995729e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999994973499</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.16010100358066,39.60708400507045,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ergi-AGG</name>
+					<LookAt>
+						<longitude>47.09469600094371</longitude>
+						<latitude>39.94055700316789</latitude>
+						<altitude>0</altitude>
+						<heading>6.058543196079409e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000043231008</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>47.09469600094371,39.94055700316789,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HW-Ağdam-AGG</name>
+					<LookAt>
+						<longitude>46.87057699925314</longitude>
+						<latitude>39.97719399861508</latitude>
+						<altitude>0</altitude>
+						<heading>-4.798789097845339e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000018780005</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>46.87057699925314,39.97719399861508,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bakı şəhərində DİN-in onurğa nöqtələri (protokol yolunun onurğaları)</name>
+				<Placemark>
+					<name>Zaqulba-ASR</name>
+					<LookAt>
+						<longitude>50.08091009019479</longitude>
+						<latitude>40.54545999346767</latitude>
+						<altitude>0</altitude>
+						<heading>-6.373926998293332e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000031877633</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.08091009019479,40.54545999346767,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Hava-ASR(hava limanı)</name>
+					<LookAt>
+						<longitude>50.05441761150082</longitude>
+						<latitude>40.44690379236302</latitude>
+						<altitude>0</altitude>
+						<heading>7.461091477292465e-09</heading>
+						<tilt>0</tilt>
+						<range>1004.645427270103</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.05441761150082,40.44690379236302,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Milli-Gimnastika Arenası</name>
+					<LookAt>
+						<longitude>49.91545739216358</longitude>
+						<latitude>40.41845979448686</latitude>
+						<altitude>0</altitude>
+						<heading>-5.080853409216249e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000014096343</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91545739216359,40.41845979448686,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Nərimanov ASR</name>
+					<LookAt>
+						<longitude>49.86956799360086</longitude>
+						<latitude>40.40472700256251</latitude>
+						<altitude>0</altitude>
+						<heading>-4.147815429526157e-09</heading>
+						<tilt>0</tilt>
+						<range>999.999985606148</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.86956799360085,40.40472700256251,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sabunçu onurğa - TS9-011</name>
+					<LookAt>
+						<longitude>49.97291398538112</longitude>
+						<latitude>40.50451597791128</latitude>
+						<altitude>0</altitude>
+						<heading>-9.49507527941647e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000033718886</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.97291398538112,40.50451597791127,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sahil-ATS</name>
+					<LookAt>
+						<longitude>49.57645300088886</longitude>
+						<latitude>40.22273800158435</latitude>
+						<altitude>0</altitude>
+						<heading>5.739978839184021e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000024573728</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.57645300088886,40.22273800158435,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Novxanı-AT</name>
+					<LookAt>
+						<longitude>49.76293419093721</longitude>
+						<latitude>40.57305540698182</latitude>
+						<altitude>0</altitude>
+						<heading>-5.894620588351461e-09</heading>
+						<tilt>0</tilt>
+						<range>1016.931179073845</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.76293419093721,40.57305540698182,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Binə-TM</name>
+					<LookAt>
+						<longitude>49.75321100132829</longitude>
+						<latitude>40.30242500216414</latitude>
+						<altitude>0</altitude>
+						<heading>8.591854999865096e-10</heading>
+						<tilt>0</tilt>
+						<range>1023.97775277311</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.7532110013283,40.30242500216414,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Abşeron-TM</name>
+					<LookAt>
+						<longitude>49.7646949945607</longitude>
+						<latitude>40.3244170030621</latitude>
+						<altitude>0</altitude>
+						<heading>-3.519872157655452e-09</heading>
+						<tilt>0</tilt>
+						<range>1021.196876047716</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.7646949945607,40.3244170030621,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Sədərək-TM-Şirniyyat-bölümü</name>
+					<LookAt>
+						<longitude>49.77785901190137</longitude>
+						<latitude>40.32780499504317</latitude>
+						<altitude>0</altitude>
+						<heading>7.702078924952271e-09</heading>
+						<tilt>0</tilt>
+						<range>1020.710572516725</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.77785901190137,40.32780499504317,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Üzgüçülük</name>
+					<LookAt>
+						<longitude>49.83474999834528</longitude>
+						<latitude>40.33488888702303</latitude>
+						<altitude>0</altitude>
+						<heading>-1.07101044177198e-09</heading>
+						<tilt>0</tilt>
+						<range>1022.585141345165</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-blank</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83474999834528,40.33488888702304,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Atıcılıq Federasiyası</name>
+					<LookAt>
+						<longitude>49.79208299614126</longitude>
+						<latitude>40.41158299093751</latitude>
+						<altitude>0</altitude>
+						<heading>-2.501506256971056e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000095328227</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-blank</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.79208299614126,40.41158299093751,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
 		</Folder>
 		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
 	</Folder>
