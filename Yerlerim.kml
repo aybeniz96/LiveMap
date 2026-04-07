@@ -5,21 +5,11 @@
 	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="m_ylw-pushpin0">
@@ -29,7 +19,67 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_grn-blank">
@@ -71,6 +121,24 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -80,7 +148,25 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin4">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -89,7 +175,34 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
+	<Style id="s_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -107,13 +220,40 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
+	<Style id="s_ylw-pushpin_hl10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl4">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
 	<Style id="sh_grn-blank">
@@ -124,8 +264,6 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
@@ -176,8 +314,6 @@
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<ListStyle>
 			<ItemIcon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
@@ -222,7 +358,6 @@
 	</Style>
 	<Folder>
 		<name>Yerlerim</name>
-		<open>1</open>
 		<Style>
 			<ListStyle>
 				<listItemType>check</listItemType>
@@ -238,6 +373,2302 @@
 				<maxSnippetLines>2</maxSnippetLines>
 			</ListStyle>
 		</Style>
+		<Folder>
+			<name>Smart Camera</name>
+			<Folder>
+				<name>Avtobus Zolağı</name>
+				<Placemark>
+					<name>BL-1</name>
+					<LookAt>
+						<longitude>49.8380440016422</longitude>
+						<latitude>40.36549498392043</latitude>
+						<altitude>0</altitude>
+						<heading>1.063567943817355e-09</heading>
+						<tilt>0</tilt>
+						<range>1023.589120347346</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83804400164219,40.36549498392043,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-2</name>
+					<LookAt>
+						<longitude>49.83926099954098</longitude>
+						<latitude>40.34730301080791</latitude>
+						<altitude>0</altitude>
+						<heading>-2.971465016704105e-10</heading>
+						<tilt>0</tilt>
+						<range>1022.371456915862</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83926099954098,40.34730301080791,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-3</name>
+					<LookAt>
+						<longitude>49.80236998750098</longitude>
+						<latitude>40.40207800165019</latitude>
+						<altitude>0</altitude>
+						<heading>-8.101228995811898e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000000588802</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80236998750098,40.4020780016502,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-4</name>
+					<LookAt>
+						<longitude>49.85341100442409</longitude>
+						<latitude>40.37623599792175</latitude>
+						<altitude>0</altitude>
+						<heading>2.865943754037189e-09</heading>
+						<tilt>0</tilt>
+						<range>1022.455356235007</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.8534110044241,40.37623599792175,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-5</name>
+					<LookAt>
+						<longitude>49.82507200433633</longitude>
+						<latitude>40.4082190002366</latitude>
+						<altitude>0</altitude>
+						<heading>2.810920158047872e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000007323636</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82507200433633,40.40821900023661,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-6</name>
+					<LookAt>
+						<longitude>49.81269997279502</longitude>
+						<latitude>40.3984900134453</latitude>
+						<altitude>0</altitude>
+						<heading>-1.763155436276302e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9998954644171</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81269997279502,40.3984900134453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-7</name>
+					<LookAt>
+						<longitude>49.85307600950573</longitude>
+						<latitude>40.37700201216284</latitude>
+						<altitude>0</altitude>
+						<heading>6.157941890984506e-09</heading>
+						<tilt>0</tilt>
+						<range>1021.925168140453</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85307600950573,40.37700201216284,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-8, ST-13</name>
+					<LookAt>
+						<longitude>49.84880601385752</longitude>
+						<latitude>40.37701100379432</latitude>
+						<altitude>0</altitude>
+						<heading>8.977096505102686e-09</heading>
+						<tilt>0</tilt>
+						<range>1021.514614008714</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84880601385753,40.37701100379432,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-9</name>
+					<LookAt>
+						<longitude>49.91750799519144</longitude>
+						<latitude>40.420236995272</latitude>
+						<altitude>0</altitude>
+						<heading>-3.1178436848091e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000006012202</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91750799519143,40.420236995272,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-10</name>
+					<LookAt>
+						<longitude>49.85332700478801</longitude>
+						<latitude>40.41434400000051</latitude>
+						<altitude>0</altitude>
+						<heading>3.104129133022629e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000017566802</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85332700478801,40.41434400000052,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-11</name>
+					<LookAt>
+						<longitude>49.86758000443421</longitude>
+						<latitude>40.40474399986974</latitude>
+						<altitude>0</altitude>
+						<heading>2.874146404560684e-09</heading>
+						<tilt>0</tilt>
+						<range>999.999998808275</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.86758000443421,40.40474399986974,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-12</name>
+					<LookAt>
+						<longitude>49.85810599999746</longitude>
+						<latitude>40.40184501265131</latitude>
+						<altitude>0</altitude>
+						<heading>-1.657068989042492e-12</heading>
+						<tilt>0</tilt>
+						<range>1000.000000308863</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85810599999745,40.4018450126513,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-13</name>
+					<LookAt>
+						<longitude>49.85765600176719</longitude>
+						<latitude>40.40182298866149</latitude>
+						<altitude>0</altitude>
+						<heading>1.145409976880775e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000049755015</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85765600176719,40.40182298866149,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-14</name>
+					<LookAt>
+						<longitude>49.80300102625036</longitude>
+						<latitude>40.41788900610904</latitude>
+						<altitude>0</altitude>
+						<heading>1.701961882260413e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9993875793691</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80300102625036,40.41788900610904,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BL-15</name>
+					<LookAt>
+						<longitude>49.80098400342281</longitude>
+						<latitude>40.42055399700362</latitude>
+						<altitude>0</altitude>
+						<heading>2.21932108452225e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999997478532</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80098400342281,40.42055399700363,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Sarı Tor</name>
+				<Placemark>
+					<name>ST-1</name>
+					<LookAt>
+						<longitude>49.82911997991756</longitude>
+						<latitude>40.36647301348785</latitude>
+						<altitude>0</altitude>
+						<heading>-1.300688473095442e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9998854363014</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82911997991756,40.36647301348785,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-2</name>
+					<LookAt>
+						<longitude>49.85002502515291</longitude>
+						<latitude>40.37426600283197</latitude>
+						<altitude>0</altitude>
+						<heading>1.629351409159941e-08</heading>
+						<tilt>0</tilt>
+						<range>1023.799029192794</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85002502515291,40.37426600283197,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-3</name>
+					<LookAt>
+						<longitude>49.85651099741175</longitude>
+						<latitude>40.37599999882854</latitude>
+						<altitude>0</altitude>
+						<heading>-1.676712094755211e-09</heading>
+						<tilt>0</tilt>
+						<range>1023.284349138467</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85651099741175,40.37599999882854,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-4</name>
+					<LookAt>
+						<longitude>49.84277997513252</longitude>
+						<latitude>40.37161200001362</latitude>
+						<altitude>0</altitude>
+						<heading>-1.610776333709259e-08</heading>
+						<tilt>0</tilt>
+						<range>1022.256605625049</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84277997513253,40.37161200001362,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-5</name>
+					<LookAt>
+						<longitude>49.84719000024218</longitude>
+						<latitude>40.37332400620328</latitude>
+						<altitude>0</altitude>
+						<heading>1.568490541163733e-10</heading>
+						<tilt>0</tilt>
+						<range>1022.861443019957</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84719000024218,40.37332400620328,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-6</name>
+					<LookAt>
+						<longitude>49.85842100252887</longitude>
+						<latitude>40.37830400784421</latitude>
+						<altitude>0</altitude>
+						<heading>1.638265549765679e-09</heading>
+						<tilt>0</tilt>
+						<range>1022.460638817686</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85842100252887,40.37830400784421,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-7</name>
+					<LookAt>
+						<longitude>49.80744800788161</longitude>
+						<latitude>40.40362297810574</latitude>
+						<altitude>0</altitude>
+						<heading>5.108622832140108e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000032549395</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80744800788161,40.40362297810574,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-8</name>
+					<LookAt>
+						<longitude>49.80725499919569</longitude>
+						<latitude>40.40462599940392</latitude>
+						<altitude>0</altitude>
+						<heading>-5.213374400574108e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.00001084783</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.8072549991957,40.40462599940393,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-9</name>
+					<LookAt>
+						<longitude>49.82582898398825</longitude>
+						<latitude>40.38918099412417</latitude>
+						<altitude>0</altitude>
+						<heading>-1.037523653752723e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000001828236</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82582898398825,40.38918099412417,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-10</name>
+					<LookAt>
+						<longitude>49.81201601912382</longitude>
+						<latitude>40.40738702874103</latitude>
+						<altitude>0</altitude>
+						<heading>1.239640588483963e-08</heading>
+						<tilt>0</tilt>
+						<range>999.999875137671</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81201601912382,40.40738702874103,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-11</name>
+					<LookAt>
+						<longitude>49.85266302874854</longitude>
+						<latitude>40.37814699570564</latitude>
+						<altitude>0</altitude>
+						<heading>1.862414504830885e-08</heading>
+						<tilt>0</tilt>
+						<range>1021.62506571411</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85266302874854,40.37814699570564,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-12</name>
+					<LookAt>
+						<longitude>49.85042197978625</longitude>
+						<latitude>40.37752900306898</latitude>
+						<altitude>0</altitude>
+						<heading>-1.309490022065455e-08</heading>
+						<tilt>0</tilt>
+						<range>1021.564471579919</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85042197978625,40.37752900306898,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-13, BL-8</name>
+					<LookAt>
+						<longitude>49.84880601385752</longitude>
+						<latitude>40.37701100379432</latitude>
+						<altitude>0</altitude>
+						<heading>8.977096505102686e-09</heading>
+						<tilt>0</tilt>
+						<range>1021.514614008714</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84880601385753,40.37701100379432,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-14</name>
+					<LookAt>
+						<longitude>49.84552402227686</longitude>
+						<latitude>40.38026001382164</latitude>
+						<altitude>0</altitude>
+						<heading>1.443222486701484e-08</heading>
+						<tilt>0</tilt>
+						<range>1009.855773646968</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84552402227687,40.38026001382164,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-15</name>
+					<LookAt>
+						<longitude>49.84477500545999</longitude>
+						<latitude>40.38198602044134</latitude>
+						<altitude>0</altitude>
+						<heading>3.537381111176909e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000068886356</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84477500545999,40.38198602044134,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-16</name>
+					<LookAt>
+						<longitude>49.83544602195541</longitude>
+						<latitude>40.39084800509386</latitude>
+						<altitude>0</altitude>
+						<heading>1.422707909006043e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000079808026</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83544602195541,40.39084800509386,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-17</name>
+					<LookAt>
+						<longitude>49.82714601729636</longitude>
+						<latitude>40.39738000034142</latitude>
+						<altitude>0</altitude>
+						<heading>1.120948012770171e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000041648142</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82714601729636,40.39738000034142,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-18</name>
+					<LookAt>
+						<longitude>49.83279398516094</longitude>
+						<latitude>40.39870798423946</latitude>
+						<altitude>0</altitude>
+						<heading>-9.617214940294034e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000023282683</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83279398516094,40.39870798423946,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-19</name>
+					<LookAt>
+						<longitude>49.83728300203529</longitude>
+						<latitude>40.4027260003458</latitude>
+						<altitude>0</altitude>
+						<heading>1.319173220793171e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000001221465</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83728300203528,40.4027260003458,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-20</name>
+					<LookAt>
+						<longitude>49.84200402123618</longitude>
+						<latitude>40.43098899310348</latitude>
+						<altitude>0</altitude>
+						<heading>1.377234246503287e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9999688620894</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84200402123617,40.43098899310348,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>ST-21</name>
+					<LookAt>
+						<longitude>49.84589700238104</longitude>
+						<latitude>40.41276700717614</latitude>
+						<altitude>0</altitude>
+						<heading>1.543583617453192e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000009554484</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin3</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84589700238104,40.41276700717614,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Yol Nişanı</name>
+				<Placemark>
+					<name>YN-1</name>
+					<LookAt>
+						<longitude>49.83454899423351</longitude>
+						<latitude>40.36245400560729</latitude>
+						<altitude>0</altitude>
+						<heading>-3.734499168115292e-09</heading>
+						<tilt>0</tilt>
+						<range>1023.689582203543</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83454899423351,40.36245400560729,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-2</name>
+					<LookAt>
+						<longitude>49.85737002816044</longitude>
+						<latitude>40.37406899499451</latitude>
+						<altitude>0</altitude>
+						<heading>1.824163563954263e-08</heading>
+						<tilt>0</tilt>
+						<range>1023.748640964719</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85737002816044,40.37406899499451,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-3</name>
+					<LookAt>
+						<longitude>49.81740501327116</longitude>
+						<latitude>40.36543497638159</latitude>
+						<altitude>0</altitude>
+						<heading>8.59518186006191e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000034833854</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81740501327116,40.36543497638159,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-4</name>
+					<LookAt>
+						<longitude>49.81041499959529</longitude>
+						<latitude>40.36835801241764</latitude>
+						<altitude>0</altitude>
+						<heading>-2.621444974009045e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000083592506</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81041499959529,40.36835801241764,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-5</name>
+					<LookAt>
+						<longitude>49.80866001123797</longitude>
+						<latitude>40.37906101776137</latitude>
+						<altitude>0</altitude>
+						<heading>7.280394624174475e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000152278235</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80866001123797,40.37906101776137,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-6</name>
+					<LookAt>
+						<longitude>49.82352999019595</longitude>
+						<latitude>40.36867397578992</latitude>
+						<altitude>0</altitude>
+						<heading>-6.350130088166621e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9997627183816</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82352999019595,40.36867397578992,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-7</name>
+					<LookAt>
+						<longitude>49.82799200703852</longitude>
+						<latitude>40.38661899780067</latitude>
+						<altitude>0</altitude>
+						<heading>4.560533746656907e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000015722763</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.82799200703852,40.38661899780067,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-8</name>
+					<LookAt>
+						<longitude>49.81709599821973</longitude>
+						<latitude>40.3956300053715</latitude>
+						<altitude>0</altitude>
+						<heading>-1.153781196802387e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000005290457</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81709599821973,40.3956300053715,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-9</name>
+					<LookAt>
+						<longitude>49.80625699420865</longitude>
+						<latitude>40.4062799966806</latitude>
+						<altitude>0</altitude>
+						<heading>-3.753960982211167e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000000962164</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80625699420865,40.4062799966806,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-10</name>
+					<LookAt>
+						<longitude>49.81014100402537</longitude>
+						<latitude>40.40466200815934</latitude>
+						<altitude>0</altitude>
+						<heading>2.609168032938595e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000027648585</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81014100402538,40.40466200815934,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-11</name>
+					<LookAt>
+						<longitude>49.90277500539864</longitude>
+						<latitude>40.3906230096953</latitude>
+						<altitude>0</altitude>
+						<heading>3.498279371922995e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000047861928</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.90277500539864,40.3906230096953,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-12</name>
+					<LookAt>
+						<longitude>49.90223800245494</longitude>
+						<latitude>40.3905829887486</latitude>
+						<altitude>0</altitude>
+						<heading>1.590783048926111e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999799567134</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.90223800245494,40.3905829887486,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-13</name>
+					<LookAt>
+						<longitude>49.93066101745935</longitude>
+						<latitude>40.39388899593687</latitude>
+						<altitude>0</altitude>
+						<heading>1.131432711277615e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000013803333</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.93066101745935,40.39388899593687,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-14</name>
+					<LookAt>
+						<longitude>49.93015499062201</longitude>
+						<latitude>40.39387799816264</latitude>
+						<altitude>0</altitude>
+						<heading>-6.077283024262589e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000019952559</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.930154990622,40.39387799816265,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-15</name>
+					<LookAt>
+						<longitude>49.86408698327762</longitude>
+						<latitude>40.39285197619132</latitude>
+						<altitude>0</altitude>
+						<heading>-1.083653464686266e-08</heading>
+						<tilt>0</tilt>
+						<range>1006.742741242845</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.86408698327761,40.39285197619132,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-16</name>
+					<LookAt>
+						<longitude>49.91755600013409</longitude>
+						<latitude>40.42363699981396</latitude>
+						<altitude>0</altitude>
+						<heading>8.69500038818496e-11</heading>
+						<tilt>0</tilt>
+						<range>1000.000008484429</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91755600013409,40.42363699981397,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-17</name>
+					<LookAt>
+						<longitude>49.8838559957452</longitude>
+						<latitude>40.40412099909101</latitude>
+						<altitude>0</altitude>
+						<heading>-2.757881228179786e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000020413058</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.8838559957452,40.40412099909101,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YN-18</name>
+					<LookAt>
+						<longitude>49.84865599125149</longitude>
+						<latitude>40.39635898998942</latitude>
+						<altitude>0</altitude>
+						<heading>-5.669656775176863e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000012583983</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84865599125148,40.39635898998942,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Yük Maşını</name>
+				<Placemark>
+					<name>YM-1</name>
+					<LookAt>
+						<longitude>49.80743201058808</longitude>
+						<latitude>40.30641999718728</latitude>
+						<altitude>0</altitude>
+						<heading>6.84914321491484e-09</heading>
+						<tilt>0</tilt>
+						<range>1019.87528946992</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80743201058808,40.30641999718729,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-2</name>
+					<LookAt>
+						<longitude>49.83434000915192</longitude>
+						<latitude>40.35675302872151</latitude>
+						<altitude>0</altitude>
+						<heading>5.926248024103933e-09</heading>
+						<tilt>0</tilt>
+						<range>1021.126193681406</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83434000915191,40.35675302872151,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-3</name>
+					<LookAt>
+						<longitude>49.80940299157682</longitude>
+						<latitude>40.33982499584629</latitude>
+						<altitude>0</altitude>
+						<heading>-5.452491682081215e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000026510328</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80940299157682,40.33982499584629,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-4</name>
+					<LookAt>
+						<longitude>49.79520900038919</longitude>
+						<latitude>40.40806599155508</latitude>
+						<altitude>0</altitude>
+						<heading>2.522975001070934e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999915483162</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.79520900038919,40.40806599155508,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-5</name>
+					<LookAt>
+						<longitude>49.8011620031284</longitude>
+						<latitude>40.35379500123017</latitude>
+						<altitude>0</altitude>
+						<heading>2.025628484975803e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000016176342</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80116200312839,40.35379500123018,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-6</name>
+					<LookAt>
+						<longitude>49.80115699182758</longitude>
+						<latitude>40.41422899891578</latitude>
+						<altitude>0</altitude>
+						<heading>-5.298279307795779e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000024717322</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80115699182758,40.41422899891579,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-7</name>
+					<LookAt>
+						<longitude>49.79134201308512</longitude>
+						<latitude>40.37398501359785</latitude>
+						<altitude>0</altitude>
+						<heading>8.476200489983043e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000220385036</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.79134201308513,40.37398501359785,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-8</name>
+					<LookAt>
+						<longitude>49.81391500519569</longitude>
+						<latitude>40.3973530052124</latitude>
+						<altitude>0</altitude>
+						<heading>3.367234157937335e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000022912109</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81391500519569,40.3973530052124,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-9</name>
+					<LookAt>
+						<longitude>49.9174269945408</longitude>
+						<latitude>40.42043500762818</latitude>
+						<altitude>0</altitude>
+						<heading>-3.53968701332097e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999995222364</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91742699454079,40.42043500762818,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-10</name>
+					<LookAt>
+						<longitude>49.9286789823143</longitude>
+						<latitude>40.40342798963534</latitude>
+						<altitude>0</altitude>
+						<heading>-1.146326294684505e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000016973163</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.9286789823143,40.40342798963534,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-11</name>
+					<LookAt>
+						<longitude>49.92490899177719</longitude>
+						<latitude>40.41853299552623</latitude>
+						<altitude>0</altitude>
+						<heading>-5.331417507021948e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000034019206</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.92490899177718,40.41853299552623,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-12</name>
+					<LookAt>
+						<longitude>49.89780000361806</longitude>
+						<latitude>40.39018000506002</latitude>
+						<altitude>0</altitude>
+						<heading>2.344460008464432e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000002252173</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.89780000361806,40.39018000506002,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-13</name>
+					<LookAt>
+						<longitude>49.90890798964257</longitude>
+						<latitude>40.392848985231</latitude>
+						<altitude>0</altitude>
+						<heading>-6.711880016526916e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000028245487</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.90890798964257,40.392848985231,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-14</name>
+					<LookAt>
+						<longitude>49.93422898081286</longitude>
+						<latitude>40.39437399208644</latitude>
+						<altitude>0</altitude>
+						<heading>-1.243415588835391e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9999977073485</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.93422898081286,40.39437399208644,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-15</name>
+					<LookAt>
+						<longitude>49.91532100455647</longitude>
+						<latitude>40.38193598390323</latitude>
+						<altitude>0</altitude>
+						<heading>2.952035008155044e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000071431999</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91532100455648,40.38193598390323,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-16</name>
+					<LookAt>
+						<longitude>49.88590600793532</longitude>
+						<latitude>40.37899400214046</latitude>
+						<altitude>0</altitude>
+						<heading>5.140810045516517e-09</heading>
+						<tilt>0</tilt>
+						<range>1019.348773243924</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.88590600793533,40.37899400214047,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-17</name>
+					<LookAt>
+						<longitude>49.96272201678224</longitude>
+						<latitude>40.3484550022514</latitude>
+						<altitude>0</altitude>
+						<heading>1.086537273615949e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000015553871</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.96272201678224,40.3484550022514,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-18</name>
+					<LookAt>
+						<longitude>49.96968899129966</longitude>
+						<latitude>40.36792799304919</latitude>
+						<altitude>0</altitude>
+						<heading>-5.635166840211074e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000025777486</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.96968899129967,40.36792799304919,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-19</name>
+					<LookAt>
+						<longitude>49.9617439936455</longitude>
+						<latitude>40.35648798326047</latitude>
+						<altitude>0</altitude>
+						<heading>-4.114807633041928e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000264897894</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.9617439936455,40.35648798326048,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-20</name>
+					<LookAt>
+						<longitude>49.89366699782317</longitude>
+						<latitude>40.42451000046925</latitude>
+						<altitude>0</altitude>
+						<heading>-1.411546070406916e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999916959678</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.89366699782316,40.42451000046925,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-21</name>
+					<LookAt>
+						<longitude>49.89595098658386</longitude>
+						<latitude>40.41686199049655</latitude>
+						<altitude>0</altitude>
+						<heading>-8.698266817842825e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999822862003</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.89595098658386,40.41686199049655,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-22</name>
+					<LookAt>
+						<longitude>49.88596302125771</longitude>
+						<latitude>40.4279370028562</latitude>
+						<altitude>0</altitude>
+						<heading>1.378540818366433e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9999456871393</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.88596302125771,40.4279370028562,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-23</name>
+					<LookAt>
+						<longitude>49.84116600576635</longitude>
+						<latitude>40.41196099954632</latitude>
+						<altitude>0</altitude>
+						<heading>3.738210875428559e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000009672236</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84116600576634,40.41196099954632,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-24</name>
+					<LookAt>
+						<longitude>49.84645400655874</longitude>
+						<latitude>40.39391300683462</latitude>
+						<altitude>0</altitude>
+						<heading>4.250340609683133e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000013082751</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84645400655874,40.39391300683462,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-25</name>
+					<LookAt>
+						<longitude>50.16319600349151</longitude>
+						<latitude>40.4874820133146</latitude>
+						<altitude>0</altitude>
+						<heading>2.266975335314617e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999155403902</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.16319600349151,40.4874820133146,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-26</name>
+					<LookAt>
+						<longitude>50.12769302652364</longitude>
+						<latitude>40.48468001297912</latitude>
+						<altitude>0</altitude>
+						<heading>1.722034044799661e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000019179086</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.12769302652363,40.48468001297912,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-27</name>
+					<LookAt>
+						<longitude>50.09637200702746</longitude>
+						<latitude>40.52955699763832</latitude>
+						<altitude>0</altitude>
+						<heading>4.56671674495767e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000004807269</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.09637200702745,40.52955699763833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-28</name>
+					<LookAt>
+						<longitude>50.10102800184153</longitude>
+						<latitude>40.51543801173188</latitude>
+						<altitude>0</altitude>
+						<heading>1.196359282323139e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999547514275</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.10102800184153,40.51543801173188,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-29</name>
+					<LookAt>
+						<longitude>50.17945598479693</longitude>
+						<latitude>40.48468200250144</latitude>
+						<altitude>0</altitude>
+						<heading>-9.870517495680472e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.230285774975</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.17945598479694,40.48468200250144,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-30</name>
+					<LookAt>
+						<longitude>50.10733697543454</longitude>
+						<latitude>40.4737909859778</latitude>
+						<altitude>0</altitude>
+						<heading>-1.594543418726005e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000007415887</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.10733697543454,40.4737909859778,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-31</name>
+					<LookAt>
+						<longitude>50.0697529979424</longitude>
+						<latitude>40.45617400509826</latitude>
+						<altitude>0</altitude>
+						<heading>-1.335133244184755e-09</heading>
+						<tilt>0</tilt>
+						<range>1003.259135688464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.06975299794238,40.45617400509827,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-32</name>
+					<LookAt>
+						<longitude>50.1143239986995</longitude>
+						<latitude>40.47175401542135</latitude>
+						<altitude>0</altitude>
+						<heading>-8.441287541244618e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000026625091</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.1143239986995,40.47175401542135,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-33</name>
+					<LookAt>
+						<longitude>49.81704401441074</longitude>
+						<latitude>40.43622902241564</latitude>
+						<altitude>0</altitude>
+						<heading>9.346807361830688e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999488402344</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81704401441074,40.43622902241564,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-34</name>
+					<LookAt>
+						<longitude>49.87287799554824</longitude>
+						<latitude>40.42816699347361</latitude>
+						<altitude>0</altitude>
+						<heading>-2.886935414934848e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000021188178</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.87287799554825,40.42816699347361,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-35</name>
+					<LookAt>
+						<longitude>49.8958440027537</longitude>
+						<latitude>40.43312700843963</latitude>
+						<altitude>0</altitude>
+						<heading>1.78595778695412e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000005439319</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.8958440027537,40.43312700843963,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-36</name>
+					<LookAt>
+						<longitude>49.80390499044503</longitude>
+						<latitude>40.42090300308657</latitude>
+						<altitude>0</altitude>
+						<heading>-6.195424727905553e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00001707034</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80390499044503,40.42090300308657,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-37</name>
+					<LookAt>
+						<longitude>49.79807100149999</longitude>
+						<latitude>40.43586001052415</latitude>
+						<altitude>0</altitude>
+						<heading>9.728807881847863e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999274540309</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.7980710015,40.43586001052415,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-38</name>
+					<LookAt>
+						<longitude>49.85426500423817</longitude>
+						<latitude>40.43955601292713</latitude>
+						<altitude>0</altitude>
+						<heading>2.74904564727468e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000089334787</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.85426500423818,40.43955601292713,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-39</name>
+					<LookAt>
+						<longitude>49.8956810086284</longitude>
+						<latitude>40.45297799630093</latitude>
+						<altitude>0</altitude>
+						<heading>5.598320114226318e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000012730724</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.8956810086284,40.45297799630093,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-40</name>
+					<LookAt>
+						<longitude>49.84461501172213</longitude>
+						<latitude>40.43675000170145</latitude>
+						<altitude>0</altitude>
+						<heading>7.603068257718315e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999972042435</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84461501172213,40.43675000170145,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-41</name>
+					<LookAt>
+						<longitude>49.79074501240939</longitude>
+						<latitude>40.42961001094746</latitude>
+						<altitude>0</altitude>
+						<heading>8.047655732757326e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999806052567</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.79074501240939,40.42961001094746,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-42</name>
+					<LookAt>
+						<longitude>49.89986499780844</longitude>
+						<latitude>40.54889898580433</latitude>
+						<altitude>0</altitude>
+						<heading>-1.424700844569449e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999830755382</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.89986499780844,40.54889898580433,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-43</name>
+					<LookAt>
+						<longitude>49.88809199924057</longitude>
+						<latitude>40.555453002981</latitude>
+						<altitude>0</altitude>
+						<heading>-4.937683920784851e-10</heading>
+						<tilt>0</tilt>
+						<range>1003.328345066211</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.88809199924057,40.555453002981,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-44</name>
+					<LookAt>
+						<longitude>49.93387300267067</longitude>
+						<latitude>40.44453999249441</latitude>
+						<altitude>0</altitude>
+						<heading>1.732483121094674e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999934197575</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.93387300267068,40.44453999249442,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-45</name>
+					<LookAt>
+						<longitude>50.07464300763554</longitude>
+						<latitude>40.55918901272145</latitude>
+						<altitude>0</altitude>
+						<heading>4.964887204975407e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000005354737</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.07464300763554,40.55918901272145,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-46</name>
+					<LookAt>
+						<longitude>49.95512000086711</longitude>
+						<latitude>40.49014198456579</latitude>
+						<altitude>0</altitude>
+						<heading>4.193147875401056e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.036691838424</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.95512000086711,40.49014198456579,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-47</name>
+					<LookAt>
+						<longitude>49.94377898377207</longitude>
+						<latitude>40.50724201222838</latitude>
+						<altitude>0</altitude>
+						<heading>-1.054078758925209e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9999779338988</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.94377898377208,40.50724201222837,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-48</name>
+					<LookAt>
+						<longitude>49.96904699545009</longitude>
+						<latitude>40.49964099896135</latitude>
+						<altitude>0</altitude>
+						<heading>-2.954913410141769e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000011208035</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.96904699545009,40.49964099896135,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-49</name>
+					<LookAt>
+						<longitude>49.9295499990985</longitude>
+						<latitude>40.43429001167932</latitude>
+						<altitude>0</altitude>
+						<heading>-5.847004504215271e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999892531756</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.9295499990985,40.43429001167932,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-50</name>
+					<LookAt>
+						<longitude>49.98951800313792</longitude>
+						<latitude>40.58666501488543</latitude>
+						<altitude>0</altitude>
+						<heading>2.041499452836306e-09</heading>
+						<tilt>0</tilt>
+						<range>1004.554053608876</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.98951800313792,40.58666501488543,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-51</name>
+					<LookAt>
+						<longitude>49.95348800434699</longitude>
+						<latitude>40.41282098627259</latitude>
+						<altitude>0</altitude>
+						<heading>2.818127294956066e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000043380316</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.95348800434699,40.41282098627259,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-52</name>
+					<LookAt>
+						<longitude>49.95403800167772</longitude>
+						<latitude>40.43903600199955</latitude>
+						<altitude>0</altitude>
+						<heading>1.088229964817424e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000023001826</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.95403800167772,40.43903600199955,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-53</name>
+					<LookAt>
+						<longitude>49.96604600984739</longitude>
+						<latitude>40.43890000442726</latitude>
+						<altitude>0</altitude>
+						<heading>6.387352119603788e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999927325498</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.96604600984739,40.43890000442726,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-54</name>
+					<LookAt>
+						<longitude>50.01015799710982</longitude>
+						<latitude>40.44121299799644</latitude>
+						<altitude>0</altitude>
+						<heading>-1.874781137543351e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00000412884</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.01015799710982,40.44121299799644,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>YM-55</name>
+					<LookAt>
+						<longitude>49.97022701306779</longitude>
+						<latitude>40.38779100396502</latitude>
+						<altitude>0</altitude>
+						<heading>8.467364909077936e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000219615576</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin0</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.97022701306779,40.38779100396502,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>NTS</name>
+				<Placemark>
+					<name>NTS-1</name>
+					<LookAt>
+						<longitude>49.81141997848295</longitude>
+						<latitude>40.30624099063168</latitude>
+						<altitude>0</altitude>
+						<heading>-1.391877838312213e-08</heading>
+						<tilt>0</tilt>
+						<range>1007.608899045662</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81141997848295,40.30624099063168,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-2</name>
+					<LookAt>
+						<longitude>49.81925598975349</longitude>
+						<latitude>40.35950199686113</latitude>
+						<altitude>0</altitude>
+						<heading>-6.635432204203258e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999651133944</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81925598975349,40.35950199686113,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-3</name>
+					<LookAt>
+						<longitude>49.80007700070638</longitude>
+						<latitude>40.35184699317274</latitude>
+						<altitude>0</altitude>
+						<heading>4.573478604210464e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999884067588</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80007700070638,40.35184699317274,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-4</name>
+					<LookAt>
+						<longitude>49.80528501000659</longitude>
+						<latitude>40.33494799758329</latitude>
+						<altitude>0</altitude>
+						<heading>6.476811581129313e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000025199071</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80528501000658,40.3349479975833,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-5</name>
+					<LookAt>
+						<longitude>49.79062200968357</longitude>
+						<latitude>40.37613599689803</latitude>
+						<altitude>0</altitude>
+						<heading>6.273033442687945e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999606999169</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.79062200968357,40.37613599689803,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-6</name>
+					<LookAt>
+						<longitude>49.80014299588596</longitude>
+						<latitude>40.37907800376223</latitude>
+						<altitude>0</altitude>
+						<heading>-2.665257114746204e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000021420773</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80014299588596,40.37907800376222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-7</name>
+					<LookAt>
+						<longitude>49.80994899340624</longitude>
+						<latitude>40.40848000628925</latitude>
+						<altitude>0</altitude>
+						<heading>-4.274258380887738e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999126437983</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80994899340624,40.40848000628925,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-8</name>
+					<LookAt>
+						<longitude>49.80602202116646</longitude>
+						<latitude>40.41070200684036</latitude>
+						<altitude>0</altitude>
+						<heading>1.372142178458264e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000011383149</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.80602202116646,40.41070200684037,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-9</name>
+					<LookAt>
+						<longitude>49.81736200946471</longitude>
+						<latitude>40.41099400894574</latitude>
+						<altitude>0</altitude>
+						<heading>6.135620758229995e-09</heading>
+						<tilt>0</tilt>
+						<range>999.9999950437929</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81736200946471,40.41099400894574,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-10</name>
+					<LookAt>
+						<longitude>49.81331799362154</longitude>
+						<latitude>40.40495896578391</latitude>
+						<altitude>0</altitude>
+						<heading>-4.13443801653592e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000061006259</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.81331799362153,40.40495896578391,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-11</name>
+					<LookAt>
+						<longitude>49.94172899114196</longitude>
+						<latitude>40.3965310074861</latitude>
+						<altitude>0</altitude>
+						<heading>-5.740662658440537e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000016466864</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.94172899114196,40.3965310074861,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-12</name>
+					<LookAt>
+						<longitude>49.91486999869163</longitude>
+						<latitude>40.39120598896382</latitude>
+						<altitude>0</altitude>
+						<heading>-8.478341003283668e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999904369815</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.91486999869163,40.39120598896383,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-13</name>
+					<LookAt>
+						<longitude>49.96172699397105</longitude>
+						<latitude>40.3930879925479</latitude>
+						<altitude>0</altitude>
+						<heading>-3.906948842944244e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000000358777</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.96172699397105,40.39308799254789,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-14</name>
+					<LookAt>
+						<longitude>49.86180100965669</longitude>
+						<latitude>40.41178100201871</latitude>
+						<altitude>0</altitude>
+						<heading>6.260212626766965e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00000185341</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.86180100965669,40.41178100201871,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-15</name>
+					<LookAt>
+						<longitude>49.83002699791014</longitude>
+						<latitude>40.41178101170919</latitude>
+						<altitude>0</altitude>
+						<heading>-1.354820877663014e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000005075901</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.83002699791014,40.41178101170918,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-16</name>
+					<LookAt>
+						<longitude>49.77325497943038</longitude>
+						<latitude>40.43409898904861</latitude>
+						<altitude>0</altitude>
+						<heading>-1.334092248637512e-08</heading>
+						<tilt>0</tilt>
+						<range>1000.000038967974</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.77325497943038,40.43409898904861,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTA-17</name>
+					<LookAt>
+						<longitude>49.84288198877979</longitude>
+						<latitude>40.42181999181228</latitude>
+						<altitude>0</altitude>
+						<heading>-7.275293014465411e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000013253304</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.84288198877979,40.42181999181228,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-18</name>
+					<LookAt>
+						<longitude>49.97360300152731</longitude>
+						<latitude>40.50819599650271</latitude>
+						<altitude>0</altitude>
+						<heading>9.920786162421001e-10</heading>
+						<tilt>0</tilt>
+						<range>1000.000014686925</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.97360300152732,40.50819599650271,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-19</name>
+					<LookAt>
+						<longitude>49.93910697702524</longitude>
+						<latitude>40.46208898852191</latitude>
+						<altitude>0</altitude>
+						<heading>-1.4909371680328e-08</heading>
+						<tilt>0</tilt>
+						<range>999.9999989093639</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.93910697702524,40.46208898852191,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-20</name>
+					<LookAt>
+						<longitude>49.99404199339342</longitude>
+						<latitude>40.52387199478419</latitude>
+						<altitude>0</altitude>
+						<heading>-4.29273422303236e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.00000613343</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.99404199339342,40.52387199478419,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-21</name>
+					<LookAt>
+						<longitude>49.99512199558576</longitude>
+						<latitude>40.52445199708293</latitude>
+						<altitude>0</altitude>
+						<heading>-2.86826873950934e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000014387806</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.99512199558576,40.52445199708293,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-22</name>
+					<LookAt>
+						<longitude>49.97432600962928</longitude>
+						<latitude>40.5026919899687</latitude>
+						<altitude>0</altitude>
+						<heading>6.254051892348972e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000026634507</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.97432600962929,40.5026919899687,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-23</name>
+					<LookAt>
+						<longitude>50.03096501145183</longitude>
+						<latitude>40.43536800474432</latitude>
+						<altitude>0</altitude>
+						<heading>7.427530264293662e-09</heading>
+						<tilt>0</tilt>
+						<range>1000.000089499698</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.03096501145183,40.43536800474432,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-24</name>
+					<LookAt>
+						<longitude>50.01221800091894</longitude>
+						<latitude>40.44371100847549</latitude>
+						<altitude>0</altitude>
+						<heading>5.961186417279811e-10</heading>
+						<tilt>0</tilt>
+						<range>999.9999751663461</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>50.01221800091893,40.4437110084755,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>NTS-25</name>
+					<LookAt>
+						<longitude>49.97922801682656</longitude>
+						<latitude>40.35575500861007</latitude>
+						<altitude>0</altitude>
+						<heading>1.089573431114874e-08</heading>
+						<tilt>0</tilt>
+						<range>999.999970648544</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>49.97922801682657,40.35575500861007,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
 		<Folder>
 			<name>QP Camera</name>
 			<Placemark>
@@ -2419,7 +4850,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000059328064</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41305000034105,41.72196199613421,0</coordinates>
@@ -2436,7 +4867,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000147043224</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41636500091878,41.71830100178619,0</coordinates>
@@ -2453,7 +4884,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000115393203</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41743599980819,41.71769699779683,0</coordinates>
@@ -2470,7 +4901,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000094026668</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42128699590094,41.71082499864322,0</coordinates>
@@ -2487,7 +4918,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000086468442</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40807800053137,41.72671799845492,0</coordinates>
@@ -2504,7 +4935,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011590524</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40359500018254,41.72450999897199,0</coordinates>
@@ -2521,7 +4952,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000093522241</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.3957469997686,41.72133800045364,0</coordinates>
@@ -2538,7 +4969,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000079630142</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.40974700218057,41.72488099996207,0</coordinates>
@@ -2555,7 +4986,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000126765059</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41445800074302,41.71662899815512,0</coordinates>
@@ -2572,7 +5003,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000128372921</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42481700001994,41.70592200112907,0</coordinates>
@@ -2589,7 +5020,7 @@ smart kamera quraşdırılıb</description>
 					<range>1292.967372240784</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41943962141721,41.72195843407328,0</coordinates>
@@ -2606,7 +5037,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000095575488</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42115699520288,41.72131799777832,0</coordinates>
@@ -2623,7 +5054,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000174806778</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42307299991832,41.72355800035127,0</coordinates>
@@ -2640,7 +5071,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000119686961</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42295800275792,41.72457700004203,0</coordinates>
@@ -2657,7 +5088,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000157208993</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41283599984185,41.70229600193941,0</coordinates>
@@ -2674,7 +5105,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000187022774</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42376100086457,41.70715500103564,0</coordinates>
@@ -2691,7 +5122,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000119919901</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42559300090932,41.70517199918842,0</coordinates>
@@ -2708,7 +5139,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000104934538</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.41124300317387,41.67854500376922,0</coordinates>
@@ -2725,7 +5156,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000134364795</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.31500299823536,41.78753099843437,0</coordinates>
@@ -2742,7 +5173,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000076607909</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.42764999798995,41.70279200003709,0</coordinates>
@@ -2762,7 +5193,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000117316997</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65286300123151,41.63039699825668,0</coordinates>
@@ -2779,7 +5210,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000081112683</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64871300098664,41.62114700118373,0</coordinates>
@@ -2796,7 +5227,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000125886583</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65509999880135,41.61469999755359,0</coordinates>
@@ -2813,7 +5244,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000085399102</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6559299995854,41.59285199751294,0</coordinates>
@@ -2830,7 +5261,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000037624964</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6411400019445,41.6286580002654,0</coordinates>
@@ -2847,7 +5278,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000074490605</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64277700161024,41.62931600199643,0</coordinates>
@@ -2864,7 +5295,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000110966712</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63907799930292,41.63014399896605,0</coordinates>
@@ -2881,7 +5312,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011042819</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.62203800038703,41.63120599872497,0</coordinates>
@@ -2898,7 +5329,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000110039281</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.60951400055482,41.6328189980992,0</coordinates>
@@ -2915,7 +5346,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000076180154</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.66321700141356,41.56190299920762,0</coordinates>
@@ -2932,7 +5363,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000159745105</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65506000038271,41.63909799903669,0</coordinates>
@@ -2949,7 +5380,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000188145445</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65576000307748,41.63858200003313,0</coordinates>
@@ -2966,7 +5397,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000092472312</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65486099930723,41.6373470013703,0</coordinates>
@@ -2983,7 +5414,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000080859056</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.65502500095648,41.64097300047548,0</coordinates>
@@ -3000,7 +5431,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000154383282</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63521100166424,41.62761999969615,0</coordinates>
@@ -3017,7 +5448,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -3034,7 +5465,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -3051,7 +5482,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000083859659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.63746800625459,41.62499100413706,0</coordinates>
@@ -3068,7 +5499,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000162713844</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64274000104263,41.63029499896381,0</coordinates>
@@ -3085,7 +5516,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000144587836</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.64198600048839,41.63158700071592,0</coordinates>
@@ -3102,7 +5533,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000181888162</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.61314899758434,41.63177899800222,0</coordinates>
@@ -3119,7 +5550,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000140156804</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin1</styleUrl>
+				<styleUrl>#m_ylw-pushpin10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.6511539979744,41.63287699900296,0</coordinates>
@@ -3139,7 +5570,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011139638</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.92791300352584,41.41769000332746,0</coordinates>
@@ -3156,7 +5587,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00011787817</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.93068499878365,41.42276999699224,0</coordinates>
@@ -3173,7 +5604,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000149673889</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.89362600264609,41.41549400492107,0</coordinates>
@@ -3190,7 +5621,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000122877363</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.90710499908327,41.41564900145089,0</coordinates>
@@ -3207,7 +5638,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000077643868</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.9198970001579,41.41620999811541,0</coordinates>
@@ -3224,7 +5655,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000153638806</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.89153799891348,41.43268099911995,0</coordinates>
@@ -3241,7 +5672,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000052608087</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.9117919997939,41.42330400006433,0</coordinates>
@@ -3258,7 +5689,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000130679422</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.91797500188996,41.41956500238215,0</coordinates>
@@ -3275,7 +5706,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000103282482</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.91438000026469,41.41873500008355,0</coordinates>
@@ -3292,7 +5723,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.00017222431</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.92756399589133,41.42001899697119,0</coordinates>
@@ -3309,7 +5740,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000043690311</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.92946300065215,41.42047599836196,0</coordinates>
@@ -3326,7 +5757,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000105326841</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.90318700113959,41.41635799861421,0</coordinates>
@@ -3343,7 +5774,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000166277197</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.9161350015989,41.42285700567503,0</coordinates>
@@ -3360,7 +5791,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000175901704</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.93195000187069,41.41674500147867,0</coordinates>
@@ -3377,7 +5808,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000094580713</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.87026899905131,41.31947599714406,0</coordinates>
@@ -3394,7 +5825,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000121080687</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.90593999958011,41.42171299972068,0</coordinates>
@@ -3411,7 +5842,7 @@ smart kamera quraşdırılıb</description>
 					<range>1000.000075109745</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>46.92662599797043,41.42119499709341,0</coordinates>
@@ -3433,7 +5864,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9999656323175</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.62523380673586,40.46928989395538,0</coordinates>
@@ -3450,7 +5881,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000013553144</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.22308840467007,40.49235830113242,0</coordinates>
@@ -3467,7 +5898,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00000414187</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.89479009894342,40.53208000205354,0</coordinates>
@@ -3484,7 +5915,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000020134042</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.5287984948883,40.66914689610646,0</coordinates>
@@ -3501,7 +5932,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000007770927</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.21107529634829,40.62613070497134,0</coordinates>
@@ -3518,10 +5949,10 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000044762485</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>47.74659889337963,40.63612749752057,0</coordinates>
+						<coordinates>47.74659889337962,40.63612749752057,0</coordinates>
 					</Point>
 				</Placemark>
 			</Folder>
@@ -3538,7 +5969,7 @@ smart kamera quraşdırılıb</description>
 						<range>1261.974458445559</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.70468635859253,40.50644060674757,0</coordinates>
@@ -3555,7 +5986,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000029121144</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.48450509341009,40.70277329711139,0</coordinates>
@@ -3572,7 +6003,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000025309033</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.28362300031863,40.94201700023938,0</coordinates>
@@ -3589,7 +6020,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000028554806</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.24421169608716,40.97168829769032,0</coordinates>
@@ -3606,7 +6037,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000022881017</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.9090701027449,41.25328000304859,0</coordinates>
@@ -3623,7 +6054,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000020181984</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.71061800163007,41.34925299880681,0</coordinates>
@@ -3640,7 +6071,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00002205511</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.71646339450715,41.34761829686424,0</coordinates>
@@ -3657,7 +6088,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00004852951</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.51563679946009,41.60019499594976,0</coordinates>
@@ -3674,7 +6105,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000027860081</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.4118683982968,41.41668829594112,0</coordinates>
@@ -3691,7 +6122,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9998768615835</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.14561009387596,41.32299629688525,0</coordinates>
@@ -3708,7 +6139,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000038472032</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.48939899718892,40.71409399888804,0</coordinates>
@@ -3725,7 +6156,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000035236844</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.36192500399809,40.8724450009925,0</coordinates>
@@ -3742,7 +6173,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000026175365</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.15800500473113,41.09525000341892,0</coordinates>
@@ -3759,7 +6190,7 @@ smart kamera quraşdırılıb</description>
 						<range>1002.254957153082</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.90999802306748,41.26932198653291,0</coordinates>
@@ -3776,7 +6207,7 @@ smart kamera quraşdırılıb</description>
 						<range>1003.833585534835</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.75689204364733,41.42640595883296,0</coordinates>
@@ -3796,7 +6227,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000007076348</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.63702680548216,40.47590170387979,0</coordinates>
@@ -3813,7 +6244,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.999977480639</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.58778830465321,40.30783680588699,0</coordinates>
@@ -3830,7 +6261,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000037293029</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.44951839995927,40.1455449960707,0</coordinates>
@@ -3847,7 +6278,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000049015783</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.5742739958431,40.22871400395248,0</coordinates>
@@ -3864,7 +6295,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00000608581</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.40172390157222,40.07606439861213,0</coordinates>
@@ -3881,7 +6312,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000048141199</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.08916249929433,40.03297610133049,0</coordinates>
@@ -3898,7 +6329,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000029014837</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.94410710248094,40.0151123023693,0</coordinates>
@@ -3915,7 +6346,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000013074554</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.93282639964827,39.95040180080878,0</coordinates>
@@ -3932,7 +6363,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000036915169</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.23793129561645,40.3093715973282,0</coordinates>
@@ -3949,7 +6380,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000012977915</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.93435360569296,40.4290884060327,0</coordinates>
@@ -3966,7 +6397,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000032984731</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.64893240656206,40.49435690565349,0</coordinates>
@@ -3983,7 +6414,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000023663251</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.20341269743439,40.59134619998496,0</coordinates>
@@ -4000,7 +6431,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000018586751</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.85518679814459,40.64524209801429,0</coordinates>
@@ -4017,14 +6448,14 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000027799454</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.48711010480896,40.68950330033182,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>Gəncə ŞBPİ </name>
+					<name>Gəncə ŞBPİ</name>
 					<LookAt>
 						<longitude>46.35217360477096</longitude>
 						<latitude>40.68033230050757</latitude>
@@ -4034,7 +6465,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000028650648</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.35217360477096,40.68033230050756,0</coordinates>
@@ -4051,7 +6482,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000059380916</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.2236951079733,40.73462640265895,0</coordinates>
@@ -4068,7 +6499,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000039570911</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>45.9004982960107,40.91466999440627,0</coordinates>
@@ -4085,10 +6516,10 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000010445304</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>45.57047180084189,41.04852829762493,0</coordinates>
+						<coordinates>45.57047180084188,41.04852829762493,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4102,7 +6533,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000023810551</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>45.37030019691975,41.08140379900166,0</coordinates>
@@ -4119,7 +6550,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9999982019309</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>45.22092509712776,41.26428169750432,0</coordinates>
@@ -4136,7 +6567,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000023464124</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.13151900367803,40.38715199707433,0</coordinates>
@@ -4153,7 +6584,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000043690345</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.04812519253569,40.77070859609369,0</coordinates>
@@ -4170,7 +6601,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00004049254</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.22349659685905,40.7049205970107,0</coordinates>
@@ -4187,7 +6618,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000041103958</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.46962930517578,40.64685800924728,0</coordinates>
@@ -4204,7 +6635,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9999748914964</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.84879150078303,40.98315060129796,0</coordinates>
@@ -4221,7 +6652,7 @@ smart kamera quraşdırılıb</description>
 						<range>624.866491163227</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.46678488848096,41.0767724081344,0</coordinates>
@@ -4241,7 +6672,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.00002072044</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.16825179821189,39.77147329665124,0</coordinates>
@@ -4258,7 +6689,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000029180488</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.98758599911619,39.59774799802953,0</coordinates>
@@ -4275,7 +6706,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000026299628</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.90083010101136,39.59565830177446,0</coordinates>
@@ -4292,7 +6723,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.0000364436</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.76069180381157,39.46952669869499,0</coordinates>
@@ -4309,7 +6740,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000045914266</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.67705999823599,39.02117099772856,0</coordinates>
@@ -4326,7 +6757,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000032957376</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.62731010564646,39.22877830137684,0</coordinates>
@@ -4343,7 +6774,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000039549431</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.79726510250774,38.7873349980597,0</coordinates>
@@ -4360,7 +6791,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000039985679</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.84067009899281,38.48391499865529,0</coordinates>
@@ -4377,7 +6808,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000034682087</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.77491679794473,39.93302170025152,0</coordinates>
@@ -4394,7 +6825,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000048788067</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.46085649562501,39.99033709750291,0</coordinates>
@@ -4411,7 +6842,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000040256415</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>48.23216179723982,39.86958830106595,0</coordinates>
@@ -4428,7 +6859,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000026722205</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.98793609982318,39.75071880213979,0</coordinates>
@@ -4448,7 +6879,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000020264362</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.68744419986159,39.64310129512288,0</coordinates>
@@ -4465,14 +6896,14 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000022477222</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.47542340092912,39.52794999740379,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>HW-Horadiz-AGG  </name>
+					<name>HW-Horadiz-AGG</name>
 					<LookAt>
 						<longitude>47.34481590336573</longitude>
 						<latitude>39.45355010162928</latitude>
@@ -4482,7 +6913,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000048924764</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.34481590336573,39.45355010162928,0</coordinates>
@@ -4499,7 +6930,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000017610686</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.14233040155372,39.31484720144166,0</coordinates>
@@ -4516,7 +6947,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000038904279</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.75657949936846,39.18135360041941,0</coordinates>
@@ -4533,7 +6964,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9999574193334</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.65377000224328,39.41598900258843,0</coordinates>
@@ -4550,7 +6981,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000040528703</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.79188699811954,39.9136869996949,0</coordinates>
@@ -4567,7 +6998,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000043681328</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.76210199549912,39.82288999374107,0</coordinates>
@@ -4584,7 +7015,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000000141185</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.74195500211216,39.756744998519,0</coordinates>
@@ -4601,7 +7032,7 @@ smart kamera quraşdırılıb</description>
 						<range>1008.902237036321</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.82628026391679,40.21571492054508,0</coordinates>
@@ -4618,7 +7049,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000031724301</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.74638960068548,40.32251110164421,0</coordinates>
@@ -4635,7 +7066,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000065419519</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.94846099712097,40.33809299641066,0</coordinates>
@@ -4652,7 +7083,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.9999994973499</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>47.16010100358066,39.60708400507045,0</coordinates>
@@ -4669,10 +7100,10 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000043231008</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>47.09469600094371,39.94055700316789,0</coordinates>
+						<coordinates>47.09469600094372,39.94055700316789,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4686,7 +7117,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000018780005</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>46.87057699925314,39.97719399861508,0</coordinates>
@@ -4706,7 +7137,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000031877633</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>50.08091009019479,40.54545999346767,0</coordinates>
@@ -4723,7 +7154,7 @@ smart kamera quraşdırılıb</description>
 						<range>1004.645427270103</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>50.05441761150082,40.44690379236302,0</coordinates>
@@ -4740,7 +7171,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000014096343</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.91545739216359,40.41845979448686,0</coordinates>
@@ -4757,7 +7188,7 @@ smart kamera quraşdırılıb</description>
 						<range>999.999985606148</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.86956799360085,40.40472700256251,0</coordinates>
@@ -4774,7 +7205,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000033718886</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.97291398538112,40.50451597791127,0</coordinates>
@@ -4791,7 +7222,7 @@ smart kamera quraşdırılıb</description>
 						<range>1000.000024573728</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.57645300088886,40.22273800158435,0</coordinates>
@@ -4808,7 +7239,7 @@ smart kamera quraşdırılıb</description>
 						<range>1016.931179073845</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.76293419093721,40.57305540698182,0</coordinates>
@@ -4825,7 +7256,7 @@ smart kamera quraşdırılıb</description>
 						<range>1023.97775277311</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.7532110013283,40.30242500216414,0</coordinates>
@@ -4842,7 +7273,7 @@ smart kamera quraşdırılıb</description>
 						<range>1021.196876047716</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.7646949945607,40.3244170030621,0</coordinates>
@@ -4859,7 +7290,7 @@ smart kamera quraşdırılıb</description>
 						<range>1020.710572516725</range>
 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 					</LookAt>
-					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<styleUrl>#m_ylw-pushpin4</styleUrl>
 					<Point>
 						<gx:drawOrder>1</gx:drawOrder>
 						<coordinates>49.77785901190137,40.32780499504317,0</coordinates>
@@ -4901,7 +7332,7 @@ smart kamera quraşdırılıb</description>
 				</Placemark>
 			</Folder>
 		</Folder>
-		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1094"></atom:link>
 	</Folder>
 </Document>
 </kml>
