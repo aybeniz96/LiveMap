@@ -14212,23 +14212,6 @@ smart kamera quraşdırılıb</description>
 					</Point>
 				</Placemark>
 				<Placemark>
-					<name>GTŞ-144</name>
-					<LookAt>
-						<longitude>46.36227800920808</longitude>
-						<latitude>40.67222200012324</latitude>
-						<altitude>0</altitude>
-						<heading>6.001181892399215e-09</heading>
-						<tilt>0</tilt>
-						<range>999.9999898133211</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>46.36227800920808,40.67222200012324,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
 					<name>GTŞ-132</name>
 					<LookAt>
 						<longitude>46.34761896753658</longitude>
